@@ -1,6 +1,6 @@
-<p align="center"><a href="#" target="_blank"><img src="https://trial.nuku-sistem.id/image/20221107.jpg" width="400"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="/public/assets/images/nuku.png" width="400"></a></p>
 
-<h1 align="center">Front-End CRM NuKu</h1>
+<h1 align="center">Front-End CMS Antar</h1>
 <h3 align="center">Made By Laravel 9</h3>
 
 ## 🚀 Teknologi yang dipakai:
@@ -11,14 +11,14 @@
 
 
 ## Tentang Project
-CRM Parameter Khusus Admin NuKu
+CMS Overview Antar
 
 ## Cara Run Project
 
 Pertama, Clone Project Terlebih dahulu menggunakan <a href="https://git-scm.com/downloads" target="_blank">Git Bash</a>
 
 ```bash
-git clone https://github.com/ezazee/FE_CRM_NUKU.git
+git clone https://github.com/ezazee/cms_antar.git
 ```
 
 Lalu setelah di buka project nya, jalankan Server Laravel : 
