@@ -50,42 +50,6 @@
                         </li>
 
                         <li class="side-nav-item">
-                            <a href="/mitra-kabupaten" class="side-nav-link">
-                                <i class="uil-sitemap"></i>
-                                <span> Mitra Kabupaten </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/role-akses" class="side-nav-link">
-                                <i class="uil-user-check"></i>
-                                <span> Role Akses </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false"
-                                aria-controls="sidebarEcommerce" class="side-nav-link">
-                                <i class="uil-store"></i>
-                                <span> Transaksi </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <div class="collapse" id="sidebarEcommerce">
-                                <ul class="side-nav-second-level">
-                                    <li>
-                                        <a href="/transaksi-anterin">Transaksi Anterin</a>
-                                    </li>
-                                    <li>
-                                        <a href="/transaksi-belanjain">Transaksi Belanjain</a>
-                                    </li>
-                                    <li>
-                                        <a href="/transaksi-kirimin">Transaksi Kirimin</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="side-nav-item">
                             <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false"
                                 aria-controls="sidebarEcommerce" class="side-nav-link">
                                 <i class="uil-store"></i>
@@ -95,119 +59,25 @@
                             <div class="collapse" id="sidebarEcommerce">
                                 <ul class="side-nav-second-level">
                                     <li>
-                                        <a href="/md-merchant">Saluran Bantuan</a>
+                                        <a href="/kabinda">Wilayah Binda</a>
                                     </li>
                                     <li>
-                                        <a href="/md-driver">Mitra Driver</a>
+                                        <a href="/bantuan">Saluran Bantuan</a>
                                     </li>
                                     <li>
-                                        <a href="/md-user">User Pengguna</a>
+                                        <a href="#">Penerima Bantuan</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
-                        <li class="side-nav-item">
-                            <a href="/withdraw" class="side-nav-link">
-                                <i class="uil-money-withdraw"></i>
-                                <span> Withdraw </span>
+                          <li class="side-nav-item">
+                            <a href="/" class="side-nav-link">
+                                <i class="uil-home-alt"></i>
+                                <span> Tambah Akun </span>
                             </a>
                         </li>
 
-                        <li class="side-nav-item">
-                            <a href="/total-topup" class="side-nav-link">
-                                <i class="uil-money-bill-stack"></i>
-                                <span> Total Topup </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-title side-nav-item mt-4">Parameter</li>
-
-                        <li class="side-nav-item">
-                            <a href="/biaya" class="side-nav-link">
-                                <i class="uil-money-bill"></i>
-                                <span> Biaya </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/promosi" class="side-nav-link">
-                                <i class="uil-comments-alt"></i>
-                                <span> Promosi </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/produk-lokal" class="side-nav-link">
-                                <i class="uil-shopping-trolley"></i>
-                                <span> Produk Lokal </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/fitur" class="side-nav-link">
-                                <i class="uil-apps"></i>
-                                <span> Fitur Aplikasi </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/banner" class="side-nav-link">
-                                <i class="uil-calender"></i>
-                                <span> Banner </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/ppob" class="side-nav-link">
-                                <i class="uil-signal-alt"></i>
-                                <span> PPOB </span>
-                            </a>
-                        </li>
-
-
-                        <li class="side-nav-title side-nav-item mt-4">Report</li>
-
-                        <li class="side-nav-item">
-                            <a href="/re-transaksi" class="side-nav-link">
-                                <i class="uil-calender"></i>
-                                <span> Transaksi </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false"
-                                aria-controls="sidebarEcommerce" class="side-nav-link">
-                                <i class="uil-store"></i>
-                                <span> Mitra </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <div class="collapse" id="sidebarEcommerce">
-                                <ul class="side-nav-second-level">
-                                    <li>
-                                        <a href="/re-merchant">Mitra Merchant</a>
-                                    </li>
-                                    <li>
-                                         <a href="/re-driver">Mitra Driver</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/user-pengguna" class="side-nav-link">
-                                <i class="uil-calender"></i>
-                                <span> User Pengguna </span>
-                            </a>
-                        </li>
-
-                        <li class="side-nav-item">
-                            <a href="/finance" class="side-nav-link">
-                                <i class="uil-calender"></i>
-                                <span> Finance </span>
-                            </a>
-                        </li>
-                    <!--- End Sidemenu -->
                     <div class="clearfix"></div>
                 </div>
             </div>
