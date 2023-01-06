@@ -11,6 +11,7 @@ use App\Http\Controllers\MdMerchantController;
 use App\Http\Controllers\TotalTopupController;
 use App\Http\Controllers\MitraKabupatenController;
 use App\Http\Controllers\PromosiController;
+use App\Http\Controllers\SaluranController;
 use App\Http\Controllers\TransaksiAnterinController;
 use App\Http\Controllers\TransaksiBelanjainController;
 use App\Http\Controllers\TransaksiKiriminController;
@@ -39,16 +40,35 @@ Route::get('/profile', function () {
 });
 
 
+// Routing Auth Login & Register
+route::get('/login', function() {
+    return view('pages.login.index');
+});
+
+route::get('/register', function() {
+    return view('pages.register.index');
+});
+
+
                             // ~~ Menu Sidebar ~~ //
     // Master Data
 // Kabinda
 Route::get('/kabinda', [KabindaController::class, 'index'])->name('kabinda');
 Route::get('/kabinda/details-posda', [KabindaController::class, 'DetailPosda'])->name('details-posda');
 Route::get('/kabinda/details-relawan', [KabindaController::class, 'DetailRelawan'])->name('details-relawan');
+Route::get('/kabinda/details-kabinda', [KabindaController::class, 'DetailKabinda'])->name('details-kabinda');
+
 
 // Saluran Bantuan
+Route::get('/bantuan', [SaluranController::class, 'index'])->name('bantuan');
+Route::get('/bantuan/details', [SaluranController::class, 'details'])->name('detail-bantuan');
 
-// Penerima Bantuan
-Route::get('/bantuan', function () {
-    return view('pages.saluran-bantuan.index');
+
+
+
+
+
+                            // ~~ Menu Tambah Akun ~~ //
+Route::get('/tambah', function(){
+    return view('pages.tambah-akun.index');
 });

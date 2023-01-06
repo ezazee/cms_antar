@@ -72,9 +72,26 @@
                         </li>
 
                           <li class="side-nav-item">
-                            <a href="/" class="side-nav-link">
-                                <i class="uil-home-alt"></i>
+                            <a href="/tambah" class="side-nav-link">
+                                <i class="uil-user-plus"></i>
                                 <span> Tambah Akun </span>
+                            </a>
+                        </li>
+
+
+                          <li class="side-nav-title side-nav-item">Auth</li>
+
+                        <li class="side-nav-item">
+                            <a href="/login" class="side-nav-link">
+                                <i class="uil-home-alt"></i>
+                                <span> Login </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="/register" class="side-nav-link">
+                                <i class="uil-home-alt"></i>
+                                <span> Register </span>
                             </a>
                         </li>
 

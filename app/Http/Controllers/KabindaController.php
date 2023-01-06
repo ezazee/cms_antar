@@ -24,6 +24,10 @@ class KabindaController extends Controller
         return view('pages.master-data.kabinda.details-relawan');
     }
 
+    public function DetailKabinda(){
+        return view('pages.master-data.kabinda.details-kabinda');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

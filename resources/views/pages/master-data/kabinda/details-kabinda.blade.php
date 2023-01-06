@@ -5,7 +5,7 @@
 <!-- Mirrored from coderthemes.com/hyper_2/saas/dashboard-analytics.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2022 03:59:59 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title> Edit Mitra Kabupaten | NusantaraKu Dashboard Admin</title>
+        <title> Edit Profile Kabinda | NusantaraKu Dashboard Admin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -41,20 +41,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box">
-                                    <div class="page-title-right">
-                                        <form class="d-flex">
-                                            <div class="input-group">
-                                                <input type="text" class="form-control form-control-light" id="dash-daterange">
-                                                <span class="input-group-text bg-primary border-primary text-white">
-                                                    <i class="mdi mdi-calendar-range font-13"></i>
-                                                </span>
-                                            </div>
-                                            <a href="javascript: void(0);" class="btn btn-primary ms-2">
-                                                <i class="mdi mdi-autorenew"></i>
-                                            </a>
-                                        </form>
-                                    </div>
-                                    <h4 class="page-title">Edit Mtra Kabupaten / Kota</h4>
+                                    <h4 class="page-title">Edit Profile Kabinda Tiap Provinsi</h4>
                                 </div>
                             </div>
                         </div>
@@ -64,10 +51,6 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h2 class="header-title">Edit Setting Profile Lokal Operator Kabupaten</h2>
-                                        <p class="text-muted font-14">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem totam ea minima. Quidem aspernatur natus delectus provident error quibusdam obcaecati qui perspiciatis ipsam, cupiditate quae neque repudiandae ducimus reprehenderit doloribus.
-                                        </p>
                                         <div class="tab-content">
                                             <div class="tab-pane show active" id="input-types-preview">
                                                 <div class="row">

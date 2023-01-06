@@ -63,6 +63,11 @@
                             <div class="col-xl-12 col-lg-5">
                                 <div class="card text-center">
                                     <div class="card-body">
+                                        <div class="col-sm-12">
+                                                <div class="text-center mt-sm-0 mt-3 text-sm-end">
+                                                     <a class="btn btn-danger" href="{{ route('details-kabinda') }}">  <i class="mdi mdi-account-edit me-1"></i> Edit Profile Kabinda</a>
+                                                </div>
+                                            </div> <!-- end col-->
                                         <img src="{{ URL::asset('assets/images/users/relawan.png') }}" class="rounded-circle avatar-lg img-thumbnail"
                                         alt="profile-image">
 
@@ -136,7 +141,7 @@
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
                                                                                     <th>Nomor KTA</th>
-                                                                                    <th>Email Akun</th>
+                                                                                    <th>Username Akun</th>
                                                                                     <th>Password Akun</th>
                                                                                     <th>Tanggal Dibuat Akun</th>
                                                                                     <th>Action</th>
@@ -151,7 +156,7 @@
                                                                                 </td>
                                                                                 <td> 081313711180 </td>
                                                                                 <td> FJSDNC8W45847 </td>
-                                                                                <td> rezaconto@email.com </td>
+                                                                                <td> rezazee </td>
                                                                                 <td> ********** </td>
                                                                                 <td> 24-42-2022 </td>
                                                                                 <td>
@@ -174,7 +179,7 @@
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
                                                                                     <th>Nomor KTA</th>
-                                                                                    <th>Email Akun</th>
+                                                                                    <th>Username Akun</th>
                                                                                     <th>Password Akun</th>
                                                                                     <th>Tanggal Dibuat Akun</th>
                                                                                     <th>Action</th>
@@ -189,7 +194,7 @@
                                                                                 </td>
                                                                                 <td> 081313711180 </td>
                                                                                 <td> - </td>
-                                                                                <td> rezaconto@email.com </td>
+                                                                                <td> rezazee </td>
                                                                                 <td> ********** </td>
                                                                                 <td> 24-42-2022 </td>
                                                                                 <td>

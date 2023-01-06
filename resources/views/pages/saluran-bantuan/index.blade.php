@@ -80,8 +80,8 @@
                                                             <td><h5><span class="badge badge-success-lighten">Sukses</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
-                                                                <form action="#">
-                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="#"><i class=" mdi mdi-tooltip-edit label-icon"></i>Lihat Laporan</a>
+                                                                <form action="">
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i>Lihat Laporan</a>
                                                                 </form>
                                                             </td>
                                                         </tr>
@@ -91,7 +91,7 @@
                                                             <td> Bantuan Subsidi Bahan Pangan Di Medan </td>
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
-                                                            <td>Donasi</td>
+                                                            <td>Subsidi</td>
                                                             <td><h5><span class="badge badge-warning-lighten">On Progress</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
@@ -106,7 +106,7 @@
                                                             <td> Bantuan Makanan Di Medan </td>
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
-                                                            <td>Donasi</td>
+                                                            <td>Makanan</td>
                                                             <td><h5><span class="badge badge-success-lighten">Sukses</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
