@@ -459,7 +459,7 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="d-flex card-header justify-content-between align-items-center">
-                                        <h4 class="header-title">Mitra Kabupaten NuKu di Indonesia</h4>
+                                        <h4 class="header-title">Peta Wilayah BINDA di Indonesia</h4>
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle arrow-none card-drop"
                                                 data-bs-toggle="dropdown" aria-expanded="false">
