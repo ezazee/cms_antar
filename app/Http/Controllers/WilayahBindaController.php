@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class KabindaController extends Controller
+class WilayahBindaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,19 +13,19 @@ class KabindaController extends Controller
      */
     public function index()
     {
-        return view('pages.master-data.kabinda.index');
+        return view('pages.master-data.wilayah-binda.index');
+    }
+
+    public function DetailKabinda() {
+        return view('pages.master-data.wilayah-binda.kabinda.details-kabinda');
     }
 
     public function DetailPosda() {
-        return view('pages.master-data.kabinda.details-posda');
+        return view('pages.master-data.wilayah-binda.posda.details-posda');
     }
 
     public function DetailRelawan() {
-        return view('pages.master-data.kabinda.details-relawan');
-    }
-
-    public function DetailKabinda(){
-        return view('pages.master-data.kabinda.details-kabinda');
+        return view('pages.master-data.wilayah-binda.relawan.details');
     }
 
     /**

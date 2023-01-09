@@ -76,7 +76,6 @@
         
                                                     <div class="col-lg-6">
                                                         <form>
-                
                                                                <div class="mb-3">
                                                                 <label for="example-email" class="form-label">Nomor KTA</label>
                                                                 <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Nomor KTA" value="FJSDNC8W45847">
@@ -88,9 +87,14 @@
                                                             </div>
 
                                                             <div class="mb-3">
+                                                                <label for="example-textarea" class="form-label">Link Google Maps Untuk Kantor Dinas</label>
+                                                                <textarea class="form-control" placeholder="Masukan Link Google Maps Untuk Kantor Dinas" id="example-textarea" rows="3">https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371</textarea>
+                                                            </div>
+
+                                                            <div class="mb-3">
                                                                 <label for="password" class="form-label">Password Dashboard Lokal Admin</label>
                                                                 <div class="input-group input-group-merge">
-                                                                    <input type="password" id="password" class="form-control" placeholder="Enter your password" value="bitung123">
+                                                                    <input type="password" id="password" class="form-control" placeholder="Enter your password" value="emilmutaqin123">
                                                                     <div class="input-group-text" data-password="false">
                                                                         <span class="password-eye"></span>
                                                                     </div>

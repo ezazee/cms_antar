@@ -109,20 +109,18 @@
                                                                                         </div>
                                                                                     </div>
                                                                             </div>
-                                                                             <div class="mb-3">
-                                                                                <label for="example-select" class="form-label">Target Fitur Promosi</label>
-                                                                                <select required class="form-select" id="example-select">
-                                                                                    <option selected>Pilih Provinsi Kabinda</option>
-                                                                                    <option value="1">Sumatera Selatan</option>
-                                                                                    <option value="2">Sumatera Utara</option>
-                                                                                    <option value="3">Sumatera Barat</option>
-                                                                                </select>
+                                                                           <div class="mb-3">
+                                                                                <label class="form-label" for="validationCustom01">Isikan Nama Provinsi Kabinda</label>
+                                                                                <input type="text" class="form-control" id="validationCustom01" placeholder="Isikan Nama Daerah Provinsi Kabinda" required>
+                                                                                <div class="invalid-feedback">
+                                                                                    Isikan Nama Daerah Provinsi Kabinda Terlebih Dahulu.
+                                                                                </div>
                                                                             </div>
                                                                             <div class="mb-3">
                                                                                 <label class="form-label" for="validationCustomUsername">Nomor HP</label>
                                                                                 <div class="input-group">
                                                                                     <span class="input-group-text" id="inputGroupPrepend">+62</span>
-                                                                                    <input type="number" class="form-control" id="validationCustomUsername" placeholder="Username"
+                                                                                    <input type="number" class="form-control" id="validationCustomUsername" placeholder="Isikan Nomo HP"
                                                                                         aria-describedby="inputGroupPrepend" required>
                                                                                     <div class="invalid-feedback">
                                                                                         Isikan Nomor HP.

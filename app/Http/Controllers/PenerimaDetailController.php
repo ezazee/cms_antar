@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class BiayaController extends Controller
+class PenerimaDetailController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,11 @@ class BiayaController extends Controller
      */
     public function index()
     {
-            return view('pages.biaya.index');
+        return view('pages.master-data.penerima-bantuan.index');
+    }
+
+    public function details(){
+        return view('pages.master-data.penerima-bantuan.details');
     }
 
     /**

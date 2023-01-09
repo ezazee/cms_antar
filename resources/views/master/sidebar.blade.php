@@ -59,13 +59,13 @@
                             <div class="collapse" id="sidebarEcommerce">
                                 <ul class="side-nav-second-level">
                                     <li>
-                                        <a href="/kabinda">Wilayah Binda</a>
+                                        <a href="/wilayah-binda">Wilayah Binda</a>
                                     </li>
                                     <li>
                                         <a href="/bantuan">Saluran Bantuan</a>
                                     </li>
                                     <li>
-                                        <a href="#">Penerima Bantuan</a>
+                                        <a href="/penerima">Penerima Bantuan</a>
                                     </li>
                                 </ul>
                             </div>
@@ -75,6 +75,20 @@
                             <a href="/tambah" class="side-nav-link">
                                 <i class="uil-user-plus"></i>
                                 <span> Tambah Akun </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="/tambah-jenis" class="side-nav-link">
+                                <i class="uil-file-plus"></i>
+                                <span> Tambah Jenis Bantuan </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
+                            <a href="/report" class="side-nav-link">
+                                <i class="uil-document"></i>
+                                <span> Report </span>
                             </a>
                         </li>
 
