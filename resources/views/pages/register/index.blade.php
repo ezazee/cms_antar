@@ -5,7 +5,7 @@
 <!-- Mirrored from coderthemes.com/hyper_2/saas/pages-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2022 04:01:37 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Register | Hyper - Responsive Bootstrap 5 Admin Dashboard</title>
+        <title>Register | Antar Bantuan Logistik</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />

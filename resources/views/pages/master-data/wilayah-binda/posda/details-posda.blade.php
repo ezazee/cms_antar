@@ -5,7 +5,7 @@
 <!-- Mirrored from coderthemes.com/hyper_2/saas/dashboard-analytics.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2022 03:59:59 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Detail Posda || Bantuan dari KABINDA & Posda</title>
+        <title>Detail Posda || Antar Bantuan Logistik</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
