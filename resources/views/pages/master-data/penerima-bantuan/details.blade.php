@@ -54,49 +54,56 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-lg-6">
-                                                <!-- Product image -->
+                                            <div class="col-lg-4">
+                                                <!-- Bukti Penerima -->
                                                 <a href="javascript: void(0);" class="text-center d-block mb-4">
-                                                    <img src="{{ URL::asset('assets/images/users/relawan.png') }}" class="img-fluid" style="max-width: 280px;" alt="Product-img" />
+                                                    <img src="{{ URL::asset('assets/images/selfie-ktp.jpg') }}" class="img-fluid" style="max-width: 280px;" alt="Product-img" />
                                                 </a>
                                                 <div class="d-lg-flex d-none justify-content-center">
-                                                    <h4>Bukti Foto Penerima</h4>
+                                                    <h4>Bukti Foto Selfie KTP</h4>
+                                                </div>
+                                            </div> <!-- end Bukti Foto Penerima -->
+
+                                            <div class="col-lg-4">
+                                                <!-- Bukti Foto KTP -->
+                                                <a href="javascript: void(0);" class="text-center d-block mb-4">
+                                                    <img src="{{ URL::asset('assets/images/ktp.jpg') }}" class="img-fluid" style="max-width: 280px;" alt="Product-img" />
+                                                </a>
+                                                <div class="d-lg-flex d-none justify-content-center">
+                                                    <h4>Bukti KTP Penerima</h4>
+                                                </div>
+                                            </div> <!-- end Bukti Foto KTP -->
+
+                                            <div class="col-lg-4">
+                                                <!-- Product image -->
+                                                <a href="javascript: void(0);" class="text-center d-block mb-4">
+                                                    <img src="{{ URL::asset('assets/images/selfie-stiker.jpg') }}" class="img-fluid" style="max-width: 280px;" alt="Product-img" />
+                                                </a>
+                                                <div class="d-lg-flex d-none justify-content-center">
+                                                    <h4>Foto Depan Stiker</h4>
                                                 </div>
                                             </div> <!-- end col -->
 
-                                            <div class="col-lg-6">
-                                                <!-- Product image -->
-                                                <a href="javascript: void(0);" class="text-center d-block mb-4">
-                                                    <img src="{{ URL::asset('assets/images/users/relawan.png') }}" class="img-fluid" style="max-width: 280px;" alt="Product-img" />
-                                                </a>
-                                                <div class="d-lg-flex d-none justify-content-center">
-                                                    <h4>Bukti TTD Penerima</h4>
-                                                </div>
-                                            </div> <!-- end col -->
 
-
-                                            <div class="col-lg-5 mt-3">
-                                                <div class="page-title-box">
-                                                    <h4 class="page-title">Alamat Penerima Bantuan</h4>
-                                                 </div>
-                                                  <p class="mb-2"><span class="fw-bold me-2">Alamat Seusi KTP :</span> Jl. Raya Samarang No.95, Sukagalih, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151 </p>
-
-                                                    <p class="mb-2"><span class="fw-bold me-2">Patokan Alamat :</span> Mesjid Putih </p>
-                                            </div>
-
-                                             <div class="col-lg-5 mt-3">
-                                                <div class="page-title-box">
-                                                    <h4 class="page-title">Detail Penerima Bantuan</h4>
-                                                 </div>
+                                            <div class="col-lg-6 mt-5">
                                                    <p class="mb-2"><span class="fw-bold me-2">Nama Penerima :</span> Reza Dhawrwangsa </p>
-
-                                                  <p class="mb-2"><span class="fw-bold me-2">Alamat Seusi KTP :</span> Jl. Raya Samarang No.95, Sukagalih, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151 </p>
                                                   
                                                   <p class="mb-2"><span class="fw-bold me-2">Pekerjaan :</span> Wiraswasta </p>
                                                   
                                                   <p class="mb-2"><span class="fw-bold me-2">NO KTP :</span> 23874629385629387 </p>
                                                   
                                                   <p class="mb-2"><span class="fw-bold me-2">NO HP :</span> 83712u3409 </p>
+                                                  
+                                            </div>
+
+                                            <div class="col-lg-6 mt-5">
+                                                  <p class="mb-2"><span class="fw-bold me-2">Alamat Seusi KTP :</span> Jl. Raya Samarang No.95, Sukagalih, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151 </p>
+
+                                                    <p class="mb-2"><span class="fw-bold me-2">Patokan Alamat :</span> Mesjid Putih </p>
+
+                                                    <p class="mb-2"><span class="fw-bold me-2">Jumlah Anggota Keluarga :</span> 3 </p>
+                                                  
+                                                  <p class="mb-2"><span class="fw-bold me-2">Jumlah Penghuni Baru :</span> 1 </p>
                                             </div>
 
                                         </div>

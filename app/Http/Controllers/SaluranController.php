@@ -13,11 +13,11 @@ class SaluranController extends Controller
      */
     public function index()
     {
-        return view('pages.saluran-bantuan.index');
+        return view('pages.master-data.saluran-bantuan.index');
     }
 
     public function details(){
-        return view('pages.saluran-bantuan.details');
+        return view('pages.master-data.saluran-bantuan.details');
     }
 
     /**

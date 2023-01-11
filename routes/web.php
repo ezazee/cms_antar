@@ -77,6 +77,11 @@ Route::get('/tambah-jenis', function() {
     return view('pages.tambah-jenis.index');
 });
 
+// Create Judul
+Route::get('/tambah-judul', function() {
+    return view('pages.tambah-judul.index');
+});
+
 
 // Report
 Route::get('/report', function () {

@@ -42,7 +42,6 @@
                             <div class="col-12">
                                 <div class="page-title-box">
                                     <div class="page-title-right">
-
                                     </div>
                                     <h4 class="page-title">Tambah Jenis Bantuan</h4>
                                 </div>

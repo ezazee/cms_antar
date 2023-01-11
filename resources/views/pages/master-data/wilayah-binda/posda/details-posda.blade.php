@@ -37,24 +37,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box">
-                                    <h4 class="page-title">Wilayah</h4>
-                                     <ul class="nav nav-bordered mb-3">
-                                            <li class="nav-item ml-5">
-                                                <select class="form-select" id="status-select">
-                                                    <option selected>Sumatera Utara</option>
-                                                    <option value="1">Sumatera Barat</option>
-                                                    <option value="2">Sumatera Selatan</option>
-                                                    <option value="3">Madiun</option>
-                                                    <option value="4">Garut</option>
-                                                    <option value="5">Madiun</option>
-                                                    <option value="6">Yogyakarta</option>
-                                                    <option value="7">Padang</option>
-                                                    <option value="8">Malang</option>
-                                                    <option value="9">Surabaya</option>
-                                                    <option value="10">Makasar</option>
-                                                </select>
-                                            </li>
-                                        </ul> <!-- end nav-->
+                                    <h4 class="page-title">Detail Posda</h4>
                                 </div>
                             </div>
                         </div>
@@ -81,17 +64,6 @@
                                             <p class="text-muted mb-1 font-13"><strong>Nomor KTA :</strong> <span class="ms-2">FJSDNC8W45847</span></p>
                                             
                                             <p class="text-muted mb-1 font-13"><strong>Kantor Dinas :</strong> <span class="ms-2"><a href="https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371">Jl. Duren Tiga Raya No.53, RT.8/RW.5, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760</a></span></p>
-
-                                                            <!-- <ul class="mb-0 list-inline text-black">
-                                                                <li class="list-inline-item me-3">
-                                                                    <h5 class="mb-1 text-black">$ 25,184</h5>
-                                                                    <p class="mb-0 font-13 text-black-50">Total Revenue</p>
-                                                                </li>
-                                                                <li class="list-inline-item">
-                                                                    <h5 class="mb-1 text-black">5482</h5>
-                                                                    <p class="mb-0 font-13 text-black-50">Number of Orders</p>
-                                                                </li>
-                                                            </ul> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -164,7 +136,7 @@
                         </div><!-- end row -->
 
                                    <h4 class="page-title">Riwayat Tugas</h4>
-                                   <div class="row">
+                                     <div class="row">
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
@@ -191,41 +163,57 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td>Donasi</td>
-                                                            <td><h5><span class="badge badge-success-lighten">Sukses</span></h5></td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
-                                                                <form action="#">
-                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="#"><i class=" mdi mdi-tooltip-edit label-icon"></i>Lihat Laporan</a>
+                                                                <form action="">
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
                                                                 </form>
                                                             </td>
                                                         </tr>
 
                                                            <tr>
                                                             <td> 2 </td>
-                                                            <td> Bantuan Subsidi Bahan Pangan Di Medan </td>
+                                                            <td> Bantuan Bencana Tsunami Di Medan </td>
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
-                                                            <td>Donasi</td>
-                                                            <td><h5><span class="badge badge-warning-lighten">On Progress</span></h5></td>
+                                                            <td> Bencana </td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
                                                                 <form action="#">
-                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="#"><i class=" mdi mdi-tooltip-edit label-icon"></i>Lihat Laporan</a>
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
                                                                 </form>
                                                             </td>
                                                         </tr>
 
                                                           <tr>
                                                             <td> 3 </td>
-                                                            <td> Bantuan Makanan Di Medan </td>
+                                                            <td> Bantuan Sumbangan Panti Jompo Di Medan </td>
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
-                                                            <td>Donasi</td>
-                                                            <td><h5><span class="badge badge-success-lighten">Sukses</span></h5></td>
+                                                            <td>Sumbangan</td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
                                                                 <form action="#">
-                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="#"><i class=" mdi mdi-tooltip-edit label-icon"></i>Lihat Laporan</a>
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
+                                                                </form>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td> 4 </td>
+                                                            <td> Bantuan Sosial Kepada Anak Yatim </td>
+                                                            <td> 040123 </td>
+                                                            <td> SHAFKsjfhsdkjfh </td>
+                                                            <td>Sosial</td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                            <td>24/01/2023</td>
+                                                           <td>
+                                                                <form action="#">
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
                                                                 </form>
                                                             </td>
                                                         </tr>
@@ -240,6 +228,8 @@
                                 </div> <!-- end card -->
                             </div><!-- end col-->
                         </div>
+
+                </div>
 
                 </div>
 

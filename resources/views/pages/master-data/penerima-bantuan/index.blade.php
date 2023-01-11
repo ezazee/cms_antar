@@ -5,13 +5,13 @@
 <!-- Mirrored from coderthemes.com/hyper_2/saas/dashboard-analytics.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2022 03:59:59 GMT -->
 <head>
         <meta charset="utf-8" />
-        <title>Penerima Bantuan</title>
+        <title>Penerima Bantuan || Bantuan dari KABINDA & Posda</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico') }}">
 
         @include('master.master-css')
     </head>
@@ -51,17 +51,6 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <!-- <ul class="nav nav-bordered mb-3">
-                                            <li class="nav-item ml-5">
-                                                <select class="form-select" id="status-select">
-                                                    <option>Pilih Jenis Bantuan</option>
-                                                    <option value="1">Donasi</option>
-                                                    <option value="2">Bencana</option>
-                                                    <option value="3">Sumbangan</option>
-                                                    <option value="4">Sosial</option>
-                                                </select>
-                                            </li>
-                                        </ul> -->
                                         <div class="tab-content" style="overflow: scroll;">
                                             <div class="tab-pane show active" id="basic-datatable-preview">
                                                 <table id="basic-datatable" class="table table-striped dt-responsive nowrap ">
@@ -70,9 +59,9 @@
                                                             <th>No</th>
                                                             <th>Nama Penerima</th>
                                                             <th>Alamat Sesuai KTP</th>
-                                                            <th>Pekerjaan</th>
+                                                            <th>Penerima Bantuan</th>
                                                             <th>No Induk KTP</th>
-                                                            <th>Foto Penerima Bantuan</th>
+                                                            <th>Status</th>
                                                             <th>Tgl Laporan</th>
                                                             <th>Action</th>
                                                         </tr>
@@ -82,15 +71,28 @@
                                                             <td> 1 </td>
                                                             <td> Reza </td>
                                                             <td> Jln. Sutomo No 12 </td>
-                                                            <td> Wiraswasta </td>
+                                                            <td> Bantuan Donasi Banjir </td>
                                                             <td> 23541534654567 </td>
-                                                            <td class="table-wd">
-                                                                <img src="{{ URL::asset('assets/images/profileza.jpeg') }}" alt="table-wd" class="me-2">
-                                                            </td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
                                                             <td> 24-42-2022 </td>
                                                         <td>
                                                                 <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-penerima') }}"></i>Lihat Detail</a>
+                                                                </form>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td> 2 </td>
+                                                            <td> Rumongso </td>
+                                                            <td> Jln. Sutomo No 13 </td>
+                                                            <td> Bantuan Bencana Tsunami Di Medan </td>
+                                                            <td> 23541534654567 </td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                            <td> 24-42-2022 </td>
+                                                        <td>
+                                                                <form action="#">
+                                                                    <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="#"></i>Lihat Detail</a>
                                                                 </form>
                                                             </td>
                                                         </tr>

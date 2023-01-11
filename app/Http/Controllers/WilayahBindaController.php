@@ -25,7 +25,7 @@ class WilayahBindaController extends Controller
     }
 
     public function DetailRelawan() {
-        return view('pages.master-data.wilayah-binda.relawan.details');
+        return view('pages.master-data.wilayah-binda.relawan.details-relawan');
     }
 
     /**

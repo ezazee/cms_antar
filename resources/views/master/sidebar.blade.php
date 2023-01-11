@@ -86,6 +86,13 @@
                         </li>
 
                         <li class="side-nav-item">
+                            <a href="/tambah-judul" class="side-nav-link">
+                                <i class="uil-file-plus-alt"></i>
+                                <span> Tambah Judul Bantuan </span>
+                            </a>
+                        </li>
+
+                        <li class="side-nav-item">
                             <a href="/report" class="side-nav-link">
                                 <i class="uil-document"></i>
                                 <span> Report </span>
