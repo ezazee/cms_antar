@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
         <title>Penerima Bantuan | Antar Bantuan Logistik</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="CMS Antar Untuk Bantuan Logistik" name="description" />
         <meta content="Coderthemes" name="author" />
 
         <!-- App favicon -->
@@ -97,7 +97,7 @@
                                             </div>
 
                                             <div class="col-lg-6 mt-5">
-                                                  <p class="mb-2"><span class="fw-bold me-2">Alamat Seusi KTP :</span> Jl. Raya Samarang No.95, Sukagalih, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151 </p>
+                                                 <p class="mb-2"><strong class="fw-bold me-02">Alamat Penerima :</strong> <span><a href=https://www.google.com/maps/place/Jl.+Raya+Samarang+No.95,+Sukagalih,+Kec.+Tarogong+Kidul,+Kabupaten+Garut,+Jawa+Barat+44151/@-7.1954789,107.8784472,17z/data=!3m1!4b1!4m5!3m4!1s0x2e68b09298783bf3:0x269d527564721b8!8m2!3d-7.1954789!4d107.8806359">Jl. Raya Samarang No.95, Sukagalih, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151</a></span></p>
 
                                                     <p class="mb-2"><span class="fw-bold me-2">Patokan Alamat :</span> Mesjid Putih </p>
 

@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
         <title>Wilayah Kabinda | Antar Bantuan Logistik</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="CMS Antar Untuk Bantuan Logistik" name="description" />
         <meta content="Coderthemes" name="author" />
 
         <!-- App favicon -->
@@ -106,7 +106,7 @@
 
                                             <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
 
-                                            <p class="text-muted mb-1 font-13"><strong>Nomor KTA :</strong> <span class="ms-2">FJSDNC8W45847</span></p>
+                                            <p class="text-muted mb-1 font-13"><strong>Nomor WNIP :</strong> <span class="ms-2">FJSDNC8W45847</span></p>
                                             
                                             <p class="text-muted mb-1 font-13"><strong>Kantor Dinas :</strong> <span class="ms-2"><a href="https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371">Jl. Duren Tiga Raya No.53, RT.8/RW.5, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760</a></span></p>
                                         </div>
@@ -174,11 +174,11 @@
                                                                                     <td> 1 </td>
                                                                                 <td class="table-user">
                                                                                     <img src="{{ URL::asset('assets/images/profileza.jpeg') }}" alt="table-user" class="me-2 rounded-circle">
-                                                                                    <a href="javascript:void(0);" class="text-body fw-semibold">Reza</a>
+                                                                                    <a href="javascript:void(0);" class="text-body fw-semibold">Emil Mutaqin</a>
                                                                                 </td>
-                                                                                <td> 081313711180 </td>
+                                                                                <td> 081420395843 </td>
                                                                                 <td> FJSDNC8W45847 </td>
-                                                                                <td> rezazee </td>
+                                                                                <td> emile123 </td>
                                                                                 <td> ********** </td>
                                                                                 <td> 24-42-2022 </td>
                                                                                 <td>

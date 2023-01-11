@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
         <title>Detail Posda || Antar Bantuan Logistik</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="CMS Antar Untuk Bantuan Logistik" name="description" />
         <meta content="Coderthemes" name="author" />
 
         <!-- App favicon -->
@@ -54,10 +54,8 @@
                                                     </div>
                                                     <div class="col">
                                                         <div>
-                                                            <h4 class="mt-1 mb-1 text-black">Posda 1</h4>
-                                                            <p class="font-13 text-black-50"> Kode Tugas : <strong>040123</strong> </p>
-
-                                                             <p class="text-muted mb-2 font-13"><strong>Nama Lengkap :</strong> <span class="ms-2">Emil Mutaqin</span></p>
+                                                            <h4 class="mt-1 mb-1 text-black">Emile Mutaqin</h4>
+                                                            <p class="font-13 text-black-50"> Kode Tugas : <strong>001</strong> </p>
 
                                             <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
 
@@ -94,8 +92,8 @@
                                                             </div>
         
                                                             <div class="mb-3">
-                                                                <label for="example-email" class="form-label">Email Dashboard Lokal Admin</label>
-                                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email" value="nyakubitung@mail.com">
+                                                                <label for="example-email" class="form-label">Username</label>
+                                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email" value="emile123">
                                                             </div>
 
                                                         </form>

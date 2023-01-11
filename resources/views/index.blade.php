@@ -7,7 +7,7 @@
         <meta charset="utf-8" />
         <title>CMS Antar | Bantuan Logistik</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="CMS Antar Untuk Bantuan Logistik" name="description" />
         <meta content="Coderthemes" name="author" />
 
         <!-- App favicon -->
@@ -53,7 +53,7 @@
                                                 <div class="card rounded-0 shadow-none m-0">
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#bantuan-saluran">
                                                         <i class="ri-bar-chart-2-line text-muted font-24"></i>
-                                                        <h3><span>1502</span></h3>
+                                                        <h3><span>150432</span></h3>
                                                         <p class="text-muted font-15 mb-0">Bantuan Tersalurkan</p>
                                                     </button>
                                                 </div>
@@ -63,7 +63,7 @@
                                                 <div class="card rounded-0 shadow-none m-0 border-start border-light">
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#user-kabinda">
                                                         <i class=" ri-shield-star-fill text-muted font-24"></i>
-                                                        <h3><span>23423</span></h3>
+                                                        <h3><span>34</span></h3>
                                                         <p class="text-muted font-15 mb-0">User Kabinda</p>
                                                     </button>
                                                 </div>
@@ -73,7 +73,7 @@
                                                 <div class="card rounded-0 shadow-none m-0 border-start border-light">
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#user-posda">
                                                         <i class="ri-shield-user-fill text-muted font-24"></i>
-                                                        <h3><span>15552</span></h3>
+                                                        <h3><span>2800</span></h3>
                                                         <p class="text-muted font-15 mb-0">User Posda</p>
                                                     </button>
                                                 </div>
@@ -83,7 +83,7 @@
                                                 <div class="card rounded-0 shadow-none m-0 border-start border-light">
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#user-relawan">
                                                         <i class=" ri-shield-user-line text-muted font-24"></i>
-                                                        <h3><span>52452</span></h3>
+                                                        <h3><span>14000</span></h3>
                                                         <p class="text-muted font-15 mb-0">Relawan</p>
                                                     </button>
                                                 </div>
@@ -94,7 +94,7 @@
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#penerima-bantuan">
                                                         <i class=" ri-user-star-fill text-muted font-24"></i>
                                                         <h3><span>52452</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Total Penerima Bantuan</p>
+                                                        <p class="text-muted font-15 mb-0">Penerima Bantuan <br> Berdasarkan NIK</p>
                                                     </button>
                                                 </div>
                                             </div>
@@ -115,7 +115,7 @@
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#penerima-feriv">
                                                         <i class="  ri-user-follow-fill text-muted font-24"></i>
                                                         <h3><span>52452</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Total Penerima Verifikasi</p>
+                                                        <p class="text-muted font-15 mb-0">Terverifikasi</p>
                                                     </button>
                                                 </div>
                                             </div>
@@ -125,7 +125,7 @@
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#penerima-nonferiv">
                                                         <i class="  ri-user-unfollow-fill text-muted font-24"></i>
                                                         <h3><span>52452</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Total Penerima Tidak Verifikasi</p>
+                                                        <p class="text-muted font-15 mb-0">Tidak Terverifikasi</p>
                                                     </button>
                                                 </div>
                                             </div>
@@ -649,6 +649,7 @@
                             <div class="col-12">
                                 <div class="page-title-box">
                                     <div class="page-title-right">
+                                         <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#bantuan-donasi">Lihat Semua Kegiatan</button>
                                     </div>
                                     <h4 class="page-title">Kegiatan</h4>
                                 </div>
