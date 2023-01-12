@@ -135,10 +135,10 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="mb-3">
-                                                                                <label class="form-label" for="validationCustom04">Nomor KTA</label>
-                                                                                <input type="text" class="form-control" id="validationCustom04" placeholder="Masukan Nomor KTA" required>
+                                                                                <label class="form-label" for="validationCustom04">Nomor NIP/NRP</label>
+                                                                                <input type="number" class="form-control" id="validationCustom04" placeholder="Masukan Nomor NIP/NRP" required>
                                                                                 <div class="invalid-feedback">
-                                                                                    Masukan Nomor KTA.
+                                                                                    Masukan Nomor NIP/NRP.
                                                                                 </div>
                                                                             </div>
                                                                             <div class="mb-3">
@@ -211,10 +211,10 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="mb-3">
-                                                                                <label class="form-label" for="validationCustom04">Nomor KTA (opsional)</label>
-                                                                                <input type="text" class="form-control" id="validationCustom04" placeholder="Masukan Nomor KTA">
+                                                                                <label class="form-label" for="validationCustom04">Nomor NIP/NRP (opsional)</label>
+                                                                                <input type="number" class="form-control" id="validationCustom04" placeholder="Masukan Nomor NIP/NRP">
                                                                                 <div class="invalid-feedback">
-                                                                                    Masukan Nomor KTA.
+                                                                                    Masukan Nomor NIP/NRP.
                                                                                 </div>
                                                                             </div>
                                                                             <div class="mb-3">
@@ -290,10 +290,17 @@
                                                                                 <label for="example-select" class="form-label">Direkrut Dari Posda</label>
                                                                                 <select required class="form-select" id="example-select">
                                                                                     <option selected>Pilih Posda</option>
-                                                                                    <option value="1">Posda 1</option>
-                                                                                    <option value="2">Posda 2</option>
-                                                                                    <option value="3">Posda 3</option>
+                                                                                    <option value="1">Emile Mutaqin</option>
+                                                                                    <option value="2">Andre</option>
+                                                                                    <option value="3">Fauzi 3</option>
                                                                                 </select>
+                                                                            </div>
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label" for="validationCustom01">Nama Asal Daerah</label>
+                                                                                <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Nama Daerah" required>
+                                                                                <div class="invalid-feedback">
+                                                                                    Isikan Nama Terlebih Dahulu.
+                                                                                </div>
                                                                             </div>
                                                                             <button class="btn btn-primary" type="submit">Submit form</button>
                                                                         </form>

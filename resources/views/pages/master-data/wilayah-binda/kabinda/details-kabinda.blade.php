@@ -77,8 +77,8 @@
                                                     <div class="col-lg-6">
                                                         <form>
                                                                <div class="mb-3">
-                                                                <label for="example-email" class="form-label">Nomor WNIP</label>
-                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Nomor WNIP" value="FJSDNC8W45847">
+                                                                <label for="example-email" class="form-label">Nomor NIP/NRP</label>
+                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Nomor NIP/NRP" value="12509638721567">
                                                             </div>
 
                                                              <div class="mb-3">

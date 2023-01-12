@@ -131,7 +131,7 @@
                                                                                     <th>No</th>
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
-                                                                                    <th>Nomor KTA</th>
+                                                                                    <th>Nomor NIP/NRP</th>
                                                                                     <th>Asal Posda</th>
                                                                                     <th>Username Akun</th>
                                                                                     <th>Password Akun</th>

@@ -106,7 +106,7 @@
 
                                             <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
 
-                                            <p class="text-muted mb-1 font-13"><strong>Nomor WNIP :</strong> <span class="ms-2">FJSDNC8W45847</span></p>
+                                            <p class="text-muted mb-1 font-13"><strong>Nomor NIP/NRP :</strong> <span class="ms-2">12509638721567</span></p>
                                             
                                             <p class="text-muted mb-1 font-13"><strong>Kantor Dinas :</strong> <span class="ms-2"><a href="https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371">Jl. Duren Tiga Raya No.53, RT.8/RW.5, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760</a></span></p>
                                         </div>
@@ -162,7 +162,7 @@
                                                                                     <th>No</th>
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
-                                                                                    <th>Nomor KTA</th>
+                                                                                    <th>Nomor NIP/NRP</th>
                                                                                     <th>Username Akun</th>
                                                                                     <th>Password Akun</th>
                                                                                     <th>Tanggal Dibuat Akun</th>
@@ -177,7 +177,7 @@
                                                                                     <a href="javascript:void(0);" class="text-body fw-semibold">Emil Mutaqin</a>
                                                                                 </td>
                                                                                 <td> 081420395843 </td>
-                                                                                <td> FJSDNC8W24 </td>
+                                                                                <td> 13509658721567 </td>
                                                                                 <td> emile123 </td>
                                                                                 <td> ********** </td>
                                                                                 <td> 24-42-2022 </td>
@@ -192,6 +192,8 @@
                                                                         </table>                                  
                                                                     </div> <!-- end preview-->
                                                     </div>
+
+
                                                     <div class="tab-pane" id="relawan">
                                                                     <div class="tab-pane show active" id="basic-datatable-preview">
                                                                         <table id="basic-datatable" class="table table-striped dt-responsive nowrap ">
@@ -200,7 +202,8 @@
                                                                                     <th>No</th>
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
-                                                                                    <th>Asal Posda</th>
+                                                                                    <th>Direkrut Oleh</th>
+                                                                                    <th>Asal Wilayah</th>
                                                                                     <th>Username Akun</th>
                                                                                     <th>Password Akun</th>
                                                                                     <th>Tanggal Dibuat Akun</th>
@@ -215,7 +218,8 @@
                                                                                     <a href="javascript:void(0);" class="text-body fw-semibold">Reza</a>
                                                                                 </td>
                                                                                 <td> 081313711180 </td>
-                                                                                <td> Posda 1 </td>
+                                                                                <td> Emile Mutaqin </td>
+                                                                                <td> Lamongan </td>
                                                                                 <td> rezazee </td>
                                                                                 <td> ********** </td>
                                                                                 <td> 24-42-2022 </td>
