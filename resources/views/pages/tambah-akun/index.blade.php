@@ -44,7 +44,7 @@
                                     <div class="page-title-right">
 
                                     </div>
-                                    <h4 class="page-title">Saluran Bantuan</h4>
+                                    <h4 class="page-title">Tambah Akun</h4>
                                 </div>
                             </div>
                         </div>
@@ -90,6 +90,13 @@
                                                                 <div class="tab-pane show active" id="custom-styles-preview">
                                                                     <div class="col-lg-6">
                                                                         <form class="needs-validation" novalidate>
+                                                                             <div class="mb-3">
+                                                                                <label class="form-label" for="validationCustom01">Nama Kabinda</label>
+                                                                                <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Nama" required>
+                                                                                <div class="invalid-feedback">
+                                                                                    Isikan Nama Terlebih Dahulu.
+                                                                                </div>
+                                                                            </div>
                                                                             <div class="mb-3">
                                                                                 <label class="form-label" for="validationCustom01">Username</label>
                                                                                 <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Username" required>
@@ -154,6 +161,8 @@
                                                                 </div> <!-- end preview-->
                                                             </div> <!-- end tab-content-->
                                                     </div>
+                                                    
+
                                                     <div class="tab-pane show " id="posda">
                                                         <h4 class="header-title mb-2">Akun Posda</h4>
                                                         <p class="mb-4">Akun Posda Yang bisa digunakan pada Aplikasi Antar khusus Posda</p>
@@ -161,6 +170,15 @@
                                                                 <div class="tab-pane show active" id="custom-styles-preview">
                                                                     <div class="col-lg-6">
                                                                         <form class="needs-validation" novalidate>
+
+                                                                        <div class="mb-3">
+                                                                                <label class="form-label" for="validationCustom01">Nama Posda</label>
+                                                                                <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Nama" required>
+                                                                                <div class="invalid-feedback">
+                                                                                    Isikan Nama Terlebih Dahulu.
+                                                                                </div>
+                                                                            </div>
+
                                                                             <div class="mb-3">
                                                                                 <label class="form-label" for="validationCustom01">Username</label>
                                                                                 <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Username" required>
@@ -197,6 +215,20 @@
                                                                                 <input type="text" class="form-control" id="validationCustom04" placeholder="Masukan Nomor KTA">
                                                                                 <div class="invalid-feedback">
                                                                                     Masukan Nomor KTA.
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="mb-3">
+                                                                                <label class="form-label" for="validationCustom05">Masukan Alamat Kantor</label>
+                                                                                <input type="text" class="form-control" id="validationCustom05" placeholder="Alamat Kantor" required>
+                                                                                <div class="invalid-feedback">
+                                                                                    Masukan Alamat Kantor Terlebih Dahulu.
+                                                                                </div>
+                                                                            </div>
+                                                                             <div class="mb-3">
+                                                                                <label class="form-label" for="validationCustom05">Link Maps Alamat</label>
+                                                                                <input type="text" class="form-control" id="validationCustom05" placeholder="Link Alamat Kantor" required>
+                                                                                <div class="invalid-feedback">
+                                                                                    Masukan Link Google Maps Alamat Kantor
                                                                                 </div>
                                                                             </div>
                                                                             <button class="btn btn-primary" type="submit">Submit form</button>
@@ -205,6 +237,8 @@
                                                                 </div> <!-- end preview-->
                                                             </div> <!-- end tab-content-->
                                                     </div>
+
+
                                                     <div class="tab-pane" id="relawan">
                                                          <h4 class="header-title mb-2">Akun Relawan</h4>
                                                         <p class="mb-4">Akun Relawan Yang bisa digunakan pada Aplikasi Antar khusus Posda</p>
@@ -212,6 +246,15 @@
                                                                 <div class="tab-pane show active" id="custom-styles-preview">
                                                                     <div class="col-lg-6">
                                                                         <form class="needs-validation" novalidate>
+
+                                                                        <div class="mb-3">
+                                                                                <label class="form-label" for="validationCustom01">Nama Relawan</label>
+                                                                                <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Nama" required>
+                                                                                <div class="invalid-feedback">
+                                                                                    Isikan Nama Terlebih Dahulu.
+                                                                                </div>
+                                                                            </div>
+
                                                                             <div class="mb-3">
                                                                                 <label class="form-label" for="validationCustom01">Username</label>
                                                                                 <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Username" required>
@@ -241,13 +284,6 @@
                                                                                     <div class="invalid-feedback">
                                                                                         Isikan Nomor HP.
                                                                                     </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="mb-3">
-                                                                                <label class="form-label" for="validationCustom04">Nomor KTA (opsional)</label>
-                                                                                <input type="text" class="form-control" id="validationCustom04" placeholder="Masukan Nomor KTA">
-                                                                                <div class="invalid-feedback">
-                                                                                    Masukan Nomor KTA.
                                                                                 </div>
                                                                             </div>
                                                                              <div class="mb-3">

@@ -67,8 +67,8 @@
                                                             </div>
         
                                                             <div class="mb-3">
-                                                                <label for="example-email" class="form-label">Email Dashboard Lokal Admin</label>
-                                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email" value="nyakubitung@mail.com">
+                                                                <label for="example-email" class="form-label">Username Untuk Aplikasi Antar</label>
+                                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email" value="emile123">
                                                             </div>
 
                                                         </form>
@@ -77,8 +77,8 @@
                                                     <div class="col-lg-6">
                                                         <form>
                                                                <div class="mb-3">
-                                                                <label for="example-email" class="form-label">Nomor KTA</label>
-                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Nomor KTA" value="FJSDNC8W45847">
+                                                                <label for="example-email" class="form-label">Nomor WNIP</label>
+                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Nomor WNIP" value="FJSDNC8W45847">
                                                             </div>
 
                                                              <div class="mb-3">

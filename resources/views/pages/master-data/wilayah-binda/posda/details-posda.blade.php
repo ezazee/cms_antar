@@ -55,13 +55,13 @@
                                                     <div class="col">
                                                         <div>
                                                             <h4 class="mt-1 mb-1 text-black">Emile Mutaqin</h4>
-                                                            <p class="font-13 text-black-50"> Kode Tugas : <strong>001</strong> </p>
+                                                            <p class="font-13 text-black-50"> Kode Wilayah : <strong>001</strong> </p>
 
-                                            <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
+                                                            <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
 
-                                            <p class="text-muted mb-1 font-13"><strong>Nomor KTA :</strong> <span class="ms-2">FJSDNC8W45847</span></p>
-                                            
-                                            <p class="text-muted mb-1 font-13"><strong>Kantor Dinas :</strong> <span class="ms-2"><a href="https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371">Jl. Duren Tiga Raya No.53, RT.8/RW.5, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760</a></span></p>
+                                                            <p class="text-muted mb-1 font-13"><strong>Nomor KTA :</strong> <span class="ms-2">FJSDNC8W24</span></p>
+                                                            
+                                                            <p class="text-muted mb-1 font-13"><strong>Kantor Dinas :</strong> <span class="ms-2"><a href="https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371">Jl. Duren Tiga Raya No.53, RT.8/RW.5, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760</a></span></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -93,7 +93,7 @@
         
                                                             <div class="mb-3">
                                                                 <label for="example-email" class="form-label">Username</label>
-                                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email" value="emile123">
+                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Email" value="emile123">
                                                             </div>
 
                                                         </form>

@@ -49,30 +49,17 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-auto">
                                                         <div class="avatar-lg">
-                                                            <img src="{{ URL::asset('assets/images/users/relawan.png') }}" alt="" class="rounded-circle img-thumbnail">
+                                                            <img src="{{ URL::asset('assets/images/profileza.jpeg') }}" alt="" class="rounded-circle img-thumbnail">
                                                         </div>
                                                     </div>
                                                     <div class="col">
                                                         <div>
-                                                            <h4 class="mt-1 mb-1 text-black">Relawan 1</h4>
-                                                            <p class="font-13 text-black-50"> Kode Tugas : <strong>040123</strong> </p>
+                                                            <h4 class="mt-1 mb-1 text-black">Reza</h4>
+                                                            <p class="font-13 text-black-50"> Kode Wilayah : <strong>001</strong> </p>
 
-                                                             <p class="text-muted mb-2 font-13"><strong>Nama Lengkap :</strong> <span class="ms-2">Emil Mutaqin</span></p>
+                                                            <p class="text-muted mb-2 font-13"><strong>Nama Lengkap :</strong> <span class="ms-2">Reza</span></p>
 
-                                            <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
-
-                                            <p class="text-muted mb-1 font-13"><strong>Nomor KTA :</strong> <span class="ms-2">-</span></p>
-
-                                                            <!-- <ul class="mb-0 list-inline text-black">
-                                                                <li class="list-inline-item me-3">
-                                                                    <h5 class="mb-1 text-black">$ 25,184</h5>
-                                                                    <p class="mb-0 font-13 text-black-50">Total Revenue</p>
-                                                                </li>
-                                                                <li class="list-inline-item">
-                                                                    <h5 class="mb-1 text-black">5482</h5>
-                                                                    <p class="mb-0 font-13 text-black-50">Number of Orders</p>
-                                                                </li>
-                                                            </ul> -->
+                                                            <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081313711180</span></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -93,17 +80,12 @@
                                                         <form>
                                                             <div class="mb-3">
                                                                 <label for="simpleinput" class="form-label">Nama</label>
-                                                                <input type="text" id="simpleinput" class="form-control" value="Emile Mutaqin">
+                                                                <input type="text" id="simpleinput" class="form-control" value="Reza">
                                                             </div>
 
                                                             <div class="mb-3">
                                                                 <label for="simpleinput" class="form-label">Nomor Handphone</label>
-                                                                <input type="number" id="simpleinput" class="form-control" value="081420395843">
-                                                            </div>
-        
-                                                            <div class="mb-3">
-                                                                <label for="example-email" class="form-label">Email Dashboard Lokal Admin</label>
-                                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email" value="nyakubitung@mail.com">
+                                                                <input type="number" id="simpleinput" class="form-control" value="081313711180">
                                                             </div>
 
                                                         </form>
@@ -111,20 +93,16 @@
         
                                                     <div class="col-lg-6">
                                                         <form>
-                                                               <div class="mb-3">
-                                                                <label for="example-email" class="form-label">Nomor KTA (opsional)</label>
-                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Nomor KTA" value="FJSDNC8W45847">
-                                                            </div>
 
-                                                             <div class="mb-3">
-                                                                <label for="example-email" class="form-label">Alamat Kantor Dinas</label>
-                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Alamat" value="Jl. Duren Tiga Raya No.53, RT.8/RW.5, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760">
+                                                         <div class="mb-3">
+                                                                <label for="example-email" class="form-label">Username Untuk Aplikasi Antar</label>
+                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="username" value="rezazee">
                                                             </div>
 
                                                             <div class="mb-3">
                                                                 <label for="password" class="form-label">Password Dashboard Lokal Admin</label>
                                                                 <div class="input-group input-group-merge">
-                                                                    <input type="password" id="password" class="form-control" placeholder="Enter your password" value="emilmutaqin123">
+                                                                    <input type="password" id="password" class="form-control" placeholder="Enter your password" value="rezazee123">
                                                                     <div class="input-group-text" data-password="false">
                                                                         <span class="password-eye"></span>
                                                                     </div>

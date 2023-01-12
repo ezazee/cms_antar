@@ -649,11 +649,86 @@
                             <div class="col-12">
                                 <div class="page-title-box">
                                     <div class="page-title-right">
-                                         <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#bantuan-donasi">Lihat Semua Kegiatan</button>
+                                         <button class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#list-kegiatan">Lihat Semua Kegiatan</button>
                                     </div>
                                     <h4 class="page-title">Kegiatan</h4>
                                 </div>
                             </div>
+
+
+                            <!-- Modal Modal List Kegiatan -->
+                                                <div id="list-kegiatan" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="standard-modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h4 class="modal-title" id="standard-modalLabel">List Kegiatan</h4>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <div class="card">
+                                                                            <div class="card-body">
+                                                                                <div class="tab-content" style="overflow: scroll;">
+                                                                                    <div class="tab-pane show active" id="basic-datatable-preview">
+                                                                                        <table id="basic-datatable" class="table table-striped dt-responsive nowrap w-100">
+                                                                                            <thead>
+                                                                                                <tr>
+                                                                                                    <th>No</th>
+                                                                                                    <th>Nama Bantuan</th>
+                                                                                                    <th>Total Bantuan</th>
+                                                                                                </tr>
+                                                                                            </thead>
+                                                                                            <tbody>
+
+                                                                                                <tr>
+                                                                                                    <td> 1 </td>
+                                                                                                    <td> Subsidi </td>
+                                                                                                    <td> 412 </td>
+                                                                                                </tr>
+
+                                                                                                <tr>
+                                                                                                    <td> 2 </td>
+                                                                                                    <td> Bantuan Pokok Non Tunai </td>
+                                                                                                    <td> 321 </td>
+                                                                                                </tr>
+
+                                                                                                <tr>
+                                                                                                    <td> 3 </td>
+                                                                                                    <td> Bansos </td>
+                                                                                                    <td> 116 </td>
+                                                                                                </tr>
+
+                                                                                                <tr>
+                                                                                                    <td> 4 </td>
+                                                                                                    <td> Senbako </td>
+                                                                                                    <td> 332 </td>
+                                                                                                </tr>
+
+                                                                                                <tr>
+                                                                                                    <td> 5 </td>
+                                                                                                    <td> Program Kartu Prakerja </td>
+                                                                                                    <td> 145 </td>
+                                                                                                </tr>
+
+                                                                                            
+                                                                                            </tbody>
+                                                                                        </table>                                           
+                                                                                    </div> <!-- end preview-->
+                                                                                </div> <!-- end tab-content-->
+                                                                            </div> <!-- end card body-->
+                                                                        </div> <!-- end card -->
+                                                                    </div><!-- end col-->
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                                                 <a class="btn btn-primary" href="/penerima">Selengkapnya</a>
+                                                            </div>
+                                                        </div><!-- /.modal-content -->
+                                                    </div><!-- /.modal-dialog -->
+                                                </div><!-- /.modal -->
+                                            <!-- END Modal List Kegiatan -->
 
                             <!-- Chart Bantuan Donasi -->
                             <div class="col-xxl-3 col-md-6">

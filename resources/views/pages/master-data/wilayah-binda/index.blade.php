@@ -173,11 +173,11 @@
                                                                                 <tr>
                                                                                     <td> 1 </td>
                                                                                 <td class="table-user">
-                                                                                    <img src="{{ URL::asset('assets/images/profileza.jpeg') }}" alt="table-user" class="me-2 rounded-circle">
+                                                                                    <img src="{{ URL::asset('assets/images/users/relawan.png') }}" alt="table-user" class="me-2 rounded-circle">
                                                                                     <a href="javascript:void(0);" class="text-body fw-semibold">Emil Mutaqin</a>
                                                                                 </td>
                                                                                 <td> 081420395843 </td>
-                                                                                <td> FJSDNC8W45847 </td>
+                                                                                <td> FJSDNC8W24 </td>
                                                                                 <td> emile123 </td>
                                                                                 <td> ********** </td>
                                                                                 <td> 24-42-2022 </td>
@@ -200,7 +200,6 @@
                                                                                     <th>No</th>
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
-                                                                                    <th>Nomor KTA</th>
                                                                                     <th>Asal Posda</th>
                                                                                     <th>Username Akun</th>
                                                                                     <th>Password Akun</th>
@@ -216,7 +215,6 @@
                                                                                     <a href="javascript:void(0);" class="text-body fw-semibold">Reza</a>
                                                                                 </td>
                                                                                 <td> 081313711180 </td>
-                                                                                <td> - </td>
                                                                                 <td> Posda 1 </td>
                                                                                 <td> rezazee </td>
                                                                                 <td> ********** </td>

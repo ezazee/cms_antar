@@ -49,43 +49,74 @@
                         </div>
 
                         <!-- Table Data Kabupaten / Kota -->
-                     <div class="row">
+                        <div class="row">
                             <div class="col-lg-12">
                                 <div class="card">
-                                     <div class="card-body">
+                                    <div class="card-body">
+                                        <h4 class="header-title mb-4">Tambah Jenis Bantuan</h4>
                                         <div class="tab-content">
-                                            <div class="tab-pane show active" id="bordered-justified-tabs-preview">
-                                                <div class="tab-content">
-                                                    <div class="tab-pane active">
-                                                            <div class="tab-content">
-                                                                <div class="tab-pane show active" id="custom-styles-preview">
-                                                                    <div class="col-lg-6">
-                                                                        <form class="needs-validation" novalidate>
-                                                                            <div class="mb-3">
-                                                                                <label class="form-label" for="validationCustom01">Nama Jenis Bantuan</label>
-                                                                                <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Nama Jenis Bantuan" required>
-                                                                                <div class="invalid-feedback">
-                                                                                    Nama Jenis Bantuan Harus Diisi.
-                                                                                </div>
-                                                                            </div>
-                                                                            <button class="btn btn-primary" type="submit">Submit form</button>
-                                                                        </form>
-                                                                    </div>
-                                                                </div> <!-- end preview-->
-                                                            </div> <!-- end tab-content-->
+                                            <div class="tab-pane show active" id="custom-styles-preview">
+                                                <form class="needs-validation" novalidate>
+                                                    <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom01">Nama Jenis Bantuan</label>
+                                                        <input type="text" class="form-control" id="validationCustom01" placeholder="Tambah Nama Jenis" required>
+                                                        <div class="invalid-feedback">
+                                                            Nama Jenis Bantuan Harus Diisi!
+                                                        </div>
                                                     </div>
-                                                                </div> <!-- end preview-->
-                                                            </div> <!-- end tab-content-->
-                                                    </div>
-                                                </div>                                          
+                                                    <button class="btn btn-primary" type="submit">Tambah Jenis</button>
+                                                </form>
                                             </div> <!-- end preview-->
                                         </div> <!-- end tab-content-->
-                                    </div> <!-- end card-body -->
+                                    </div> <!-- end card-body-->
                                 </div> <!-- end card-->
                             </div> <!-- end col-->
                         </div>
                         <!-- end row -->
                 <!-- content -->
+
+                <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title mb-4">Tambah Judul Bantuan</h4>
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="custom-styles-preview">
+                                                <form class="needs-validation" novalidate>
+                                                    <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom01">Nama Judul Bantuan</label>
+                                                        <input type="text" class="form-control" id="validationCustom01" placeholder="Tambah Judul Bantuan" required>
+                                                        <div class="invalid-feedback">
+                                                            Nama Judul Bantuan Harus Diisi!
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label class="form-label" for="validationCustom01">Kode Bantuan</label>
+                                                        <input type="text" class="form-control" id="validationCustom01" placeholder="Isi Kode Bantuan" required>
+                                                        <div class="invalid-feedback">
+                                                            Kode Bantuan Harus Diisi
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label for="example-select" class="form-label">Pilih Nama Jenis Bantuan</label>
+                                                            <select required class="form-select" id="example-select">
+                                                                <option selected>Pilih Jenis</option>
+                                                                <option value="1">Sosial</option>
+                                                                <option value="2">Sumbangan</option>
+                                                                <option value="3">Bencana</option>
+                                                                <option value="4">Donasi</option>
+                                                            </select>
+                                                    </div>
+                                                    <button class="btn btn-primary" type="submit">Tambah Judul</button>
+                                                </form>
+                                            </div> <!-- end preview-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div> <!-- end col-->
+                        </div>
 
                 <!-- Footer Start -->
                 @include('master.footer')
@@ -97,6 +128,7 @@
             <!-- End Page content -->
             <!-- ============================================================== -->
 
+            </div>
         </div>
         <!-- END wrapper -->
 
