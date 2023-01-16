@@ -119,22 +119,44 @@
                                                                            <div class="mb-3">
                                                                                 <label class="form-label" for="validationCustom01">Isikan Nama Provinsi Kabinda</label>
                                                                                 <ul class="nav nav-bordered mb-3">
-                                                                                <li class="nav-item">
-                                                                                    <select class="form-select" id="status-select">
-                                                                                        <option selected>Medan</option>
-                                                                                        <option value="1">Lamongan</option>
-                                                                                        <option value="2">Bitung</option>
-                                                                                        <option value="3">Madiun</option>
-                                                                                        <option value="4">Garut</option>
-                                                                                        <option value="5">Madiun</option>
-                                                                                        <option value="6">Yogyakarta</option>
-                                                                                        <option value="7">Padang</option>
-                                                                                        <option value="8">Malang</option>
-                                                                                        <option value="9">Surabaya</option>
-                                                                                        <option value="10">Makasar</option>
-                                                                                    </select>
-                                                                                </li>
-                                                                            </ul> <!-- end nav-->
+                                            <li class="nav-item ml-5">
+                                                <select class="form-select" id="status-select">
+                                                    <option selected>Sumatera Utara</option>
+                                                    <option value="1">Sumatera Barat</option>
+                                                    <option value="2">Sumatera Selatan</option>
+                                                    <option value="3">Riau</option>
+                                                    <option value="4">Jambi</option>
+                                                    <option value="5">Bengkulu</option>
+                                                    <option value="6">Lampung</option>
+                                                    <option value="7">Kepulauan Bangka Belitung</option>
+                                                    <option value="8">Kepulauan Riau</option>
+                                                    <option value="9">DKI Jakarta</option>
+                                                    <option value="10">Jawa Barat</option>
+                                                    <option value="11">Jawa Tengah</option>
+                                                    <option value="12">DI Yogyakarta</option>
+                                                    <option value="13">Jawa Timur</option>
+                                                    <option value="14">Banten</option>
+                                                    <option value="15">Bali</option>
+                                                    <option value="16">Nusa Tengara Barat</option>
+                                                    <option value="17">Nusa Tenggara Timur</option>
+                                                    <option value="18">Kalimantan Barat</option>
+                                                    <option value="19">Kalimantan Tengah</option>
+                                                    <option value="20">Kalimantan Selatan</option>
+                                                    <option value="21">Kalimantan Timur</option>
+                                                    <option value="22">Kalimantan Utara</option>
+                                                    <option value="23">Sulawesi Utara</option>
+                                                    <option value="24">Sulawesi Tengah </option>
+                                                    <option value="25">Sulawesi Selatan</option>
+                                                    <option value="26">Sulawesi Tenggara</option>
+                                                    <option value="27">Gorontalo</option>
+                                                    <option value="28">Sulawesi Barat</option>
+                                                    <option value="29">Maluku</option>
+                                                    <option value="30">Maluku Utara</option>
+                                                    <option value="31">Papua</option>
+                                                    <option value="32">Papua Barat</option>
+                                                </select>
+                                            </li>
+                                        </ul> <!-- end nav-->
                                                                                 <div class="invalid-feedback">
                                                                                     Isikan Nama Daerah Provinsi Kabinda Terlebih Dahulu.
                                                                                 </div>
