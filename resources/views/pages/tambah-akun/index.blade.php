@@ -118,7 +118,23 @@
                                                                             </div>
                                                                            <div class="mb-3">
                                                                                 <label class="form-label" for="validationCustom01">Isikan Nama Provinsi Kabinda</label>
-                                                                                <input type="text" class="form-control" id="validationCustom01" placeholder="Isikan Nama Daerah Provinsi Kabinda" required>
+                                                                                <ul class="nav nav-bordered mb-3">
+                                                                                <li class="nav-item">
+                                                                                    <select class="form-select" id="status-select">
+                                                                                        <option selected>Medan</option>
+                                                                                        <option value="1">Lamongan</option>
+                                                                                        <option value="2">Bitung</option>
+                                                                                        <option value="3">Madiun</option>
+                                                                                        <option value="4">Garut</option>
+                                                                                        <option value="5">Madiun</option>
+                                                                                        <option value="6">Yogyakarta</option>
+                                                                                        <option value="7">Padang</option>
+                                                                                        <option value="8">Malang</option>
+                                                                                        <option value="9">Surabaya</option>
+                                                                                        <option value="10">Makasar</option>
+                                                                                    </select>
+                                                                                </li>
+                                                                            </ul> <!-- end nav-->
                                                                                 <div class="invalid-feedback">
                                                                                     Isikan Nama Daerah Provinsi Kabinda Terlebih Dahulu.
                                                                                 </div>

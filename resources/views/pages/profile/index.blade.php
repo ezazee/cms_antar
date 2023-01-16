@@ -91,7 +91,7 @@
                                                         <form>
 
                                                             <div class="mb-3">
-                                                                <label for="password" class="form-label">Password Dashboard Lokal Admin</label>
+                                                                <label for="password" class="form-label">Password</label>
                                                                 <div class="input-group input-group-merge">
                                                                     <input type="password" id="password" class="form-control" placeholder="Enter your password" value="emilmutaqin123">
                                                                     <div class="input-group-text" data-password="false">
