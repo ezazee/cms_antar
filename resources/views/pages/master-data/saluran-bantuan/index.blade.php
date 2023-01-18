@@ -77,12 +77,11 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td>Donasi</td>
-                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
-                                                                <form action="">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
-                                                                </form>
+                                                                <button class="btn btn-primary waves-effect btn-label waves-light btn-sm" data-bs-toggle="modal" data-bs-target="#riwayat">History</button>
                                                             </td>
                                                         </tr>
 
@@ -92,12 +91,11 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td> Bencana </td>
-                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
-                                                                <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
-                                                                </form>
+                                                                <button class="btn btn-primary waves-effect btn-label waves-light btn-sm" data-bs-toggle="modal" data-bs-target="#riwayat">History</button>
                                                             </td>
                                                         </tr>
 
@@ -107,12 +105,11 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td>Sumbangan</td>
-                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
-                                                                <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
-                                                                </form>
+                                                                <button class="btn btn-primary waves-effect btn-label waves-light btn-sm" data-bs-toggle="modal" data-bs-target="#riwayat">History</button>
                                                             </td>
                                                         </tr>
 
@@ -123,12 +120,14 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td>Sosial</td>
-                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
-                                                                <form action="#">
                                                                     <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('detail-bantuan') }}"><i class=" mdi mdi-tooltip-edit label-icon"></i> Detail</a>
-                                                                </form>
+                                                                <button class="btn btn-primary waves-effect btn-label waves-light btn-sm" data-bs-toggle="modal" data-bs-target="#riwayat">History</button>
+                                                            </td>
+                                                            <td>
+                                                                
                                                             </td>
                                                         </tr>
 
@@ -136,8 +135,62 @@
                                                     </tbody>
                                                 </table>                                           
                                             </div> <!-- end preview-->
-                                        </div> <!-- end tab-content-->
+                                            <!-- Modal Riwayat -->
+                                                <div id="riwayat" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="standard-modalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h4 class="modal-title" id="standard-modalLabel">History Perubahan</h4>
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <div class="card">
+                                                                            <div class="card-body">
+                                                                                <div class="tab-content" style="overflow: scroll;">
+                                                                                    <div class="tab-pane show active" id="basic-datatable-preview">
+                                                                                        <table id="basic-datatable" class="table table-striped dt-responsive nowrap w-100">
+                                                                                            <thead>
+                                                                                                <tr>
+                                                                                                    <th>Riwayat</th>
+                                                                                                    <th>Tanggal Upload</th>
+                                                                                                    <th>Status Perubahan</th>
+                                                                                                </tr>
+                                                                                            </thead>
+                                                                                            <tbody>
 
+                                                                                                <tr>
+                                                                                                    <td> 1 </td>
+                                                                                                    <td> 24/01/2023 </td>
+                                                                                                    <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
+                                                                                                </tr>
+
+                                                                                                <tr>
+                                                                                                    <td> 2 </td>
+                                                                                                    <td> 30/01/2023 </td>
+                                                                                                    <td><h5><span class="badge badge-success-lighten"> Terkonfirmasi</span></h5></td>
+                                                                                                </tr>
+
+                                                                                            
+                                                                                            </tbody>
+                                                                                        </table>                                           
+                                                                                    </div> <!-- end preview-->
+                                                                                </div> <!-- end tab-content-->
+                                                                            </div> <!-- end card body-->
+                                                                        </div> <!-- end card -->
+                                                                    </div><!-- end col-->
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                                                <a class="btn btn-primary" href="/wilayah-binda">Selengkapnya</a>
+                                                            </div>
+                                                        </div><!-- /.modal-content -->
+                                                    </div><!-- /.modal-dialog -->
+                                                </div><!-- /.modal -->
+                                            <!-- END Modal User posda -->
+                                        </div> <!-- end tab-content-->
                                     </div> <!-- end card body-->
                                 </div> <!-- end card -->
                             </div><!-- end col-->

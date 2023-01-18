@@ -70,7 +70,7 @@
                                 </div>
                                  <div class="text-center pb-5">
                                     <p> <strong> Status </strong></p>
-                                    <h1 class="text-danger mb-3">Terverifikasi</h1>
+                                    <h1 class="text-danger mb-3">Terkonfirmasi</h1>
                                     <p class="text-muted">24/01/2023</p>
                                 </div>
                             </div>

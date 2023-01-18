@@ -55,11 +55,12 @@
                                                     <div class="col">
                                                         <div>
                                                             <h4 class="mt-1 mb-1 text-black">Reza</h4>
+
                                                             <p class="font-13 text-black-50"> Kode Wilayah : <strong>001</strong> </p>
 
-                                                            <p class="text-muted mb-2 font-13"><strong>Nama Lengkap :</strong> <span class="ms-2">Reza</span></p>
-
                                                             <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081313711180</span></p>
+
+                                                            <p class="text-muted mb-2 font-13"><strong>Email :</strong><span class="ms-2">reza12@email.com</span></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -88,6 +89,14 @@
                                                                 <input type="number" id="simpleinput" class="form-control" value="081313711180">
                                                             </div>
 
+                                                            <div class="mb-3">
+                                                                <label class="form-label" for="validationCustom01">Email</label>
+                                                                    <input value="reza12@email.com" type="email" class="form-control" id="validationCustom01" placeholder="Isi Email" required>
+                                                                        <div class="invalid-feedback">
+                                                                            Isikan Email Terlebihdahulu.
+                                                                        </div>
+                                                             </div>
+
                                                         </form>
                                                     </div> <!-- end col -->
         
@@ -107,6 +116,16 @@
                                                                         <span class="password-eye"></span>
                                                                     </div>
                                                                 </div>
+                                                            </div>
+
+                                                            <div class="mb-3">
+                                                                <label for="example-select" class="form-label">Direkrut Dari Posda</label>
+                                                                    <select disabled required class="form-select" id="example-select">
+                                                                        <option>Pilih Posda</option>
+                                                                        <option selected value="1">Emile Mutaqin</option>
+                                                                        <option value="2">Andre</option>
+                                                                        <option value="3">Fauzi 3</option>
+                                                                    </select>
                                                             </div>
                 
                                                         </form>
@@ -149,7 +168,7 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td>Donasi</td>
-                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
                                                                 <form action="">
@@ -164,7 +183,7 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td> Bencana </td>
-                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
                                                                 <form action="#">
@@ -179,7 +198,7 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td>Sumbangan</td>
-                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
                                                                 <form action="#">
@@ -195,7 +214,7 @@
                                                             <td> 040123 </td>
                                                             <td> SHAFKsjfhsdkjfh </td>
                                                             <td>Sosial</td>
-                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                             <td>24/01/2023</td>
                                                            <td>
                                                                 <form action="#">

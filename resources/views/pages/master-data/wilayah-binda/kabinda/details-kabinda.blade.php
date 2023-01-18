@@ -61,9 +61,9 @@
                                                                 <input type="text" id="simpleinput" class="form-control" value="Emile Mutaqin">
                                                             </div>
 
-                                                            <div class="mb-3">
-                                                                <label for="simpleinput" class="form-label">Nomor Handphone</label>
-                                                                <input type="number" id="simpleinput" class="form-control" value="081420395843">
+                                                             <div class="mb-3">
+                                                                <label for="example-textarea" class="form-label">Link Google Maps Untuk Kantor Dinas</label>
+                                                                <textarea class="form-control" placeholder="Masukan Link Google Maps Untuk Kantor Dinas" id="example-textarea" rows="3">https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371</textarea>
                                                             </div>
         
                                                             <div class="mb-3">
@@ -84,11 +84,6 @@
                                                              <div class="mb-3">
                                                                 <label for="example-email" class="form-label">Alamat Kantor Dinas</label>
                                                                 <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Alamat" value="Jl. Duren Tiga Raya No.53, RT.8/RW.5, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760">
-                                                            </div>
-
-                                                            <div class="mb-3">
-                                                                <label for="example-textarea" class="form-label">Link Google Maps Untuk Kantor Dinas</label>
-                                                                <textarea class="form-control" placeholder="Masukan Link Google Maps Untuk Kantor Dinas" id="example-textarea" rows="3">https://www.google.com/maps/place/Starguard+Security/@-6.2539381,106.8295414,17z/data=!3m1!4b1!4m5!3m4!1s0x2e69f3cdb86e2a85:0x61ca1a0c161d880a!8m2!3d-6.2540098!4d106.8317371</textarea>
                                                             </div>
 
                                                             <div class="mb-3">

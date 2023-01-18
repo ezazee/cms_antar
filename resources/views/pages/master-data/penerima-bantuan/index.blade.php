@@ -73,7 +73,7 @@
                                                             <td> Jln. Sutomo No 12 </td>
                                                             <td> Bantuan Donasi Banjir </td>
                                                             <td> 23541534654567 </td>
-                                                            <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                             <td> 24-42-2022 </td>
                                                         <td>
                                                                 <form action="#">
@@ -88,7 +88,7 @@
                                                             <td> Jln. Sutomo No 13 </td>
                                                             <td> Bantuan Bencana Tsunami Di Medan </td>
                                                             <td> 23541534654567 </td>
-                                                            <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                            <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                             <td> 24-42-2022 </td>
                                                         <td>
                                                                 <form action="#">

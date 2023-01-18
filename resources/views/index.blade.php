@@ -115,7 +115,7 @@
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#penerima-feriv">
                                                         <i class="  ri-user-follow-fill text-muted font-24"></i>
                                                         <h3><span>52452</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Terverifikasi</p>
+                                                        <p class="text-muted font-15 mb-0">Terkonfirmasi</p>
                                                     </button>
                                                 </div>
                                             </div>
@@ -125,7 +125,7 @@
                                                     <button class="card-body text-center btn btn-white" data-bs-toggle="modal" data-bs-target="#penerima-nonferiv">
                                                         <i class="  ri-user-unfollow-fill text-muted font-24"></i>
                                                         <h3><span>52452</span></h3>
-                                                        <p class="text-muted font-15 mb-0">Tidak Terverifikasi</p>
+                                                        <p class="text-muted font-15 mb-0">Nonkonfirmasi</p>
                                                     </button>
                                                 </div>
                                             </div>
@@ -177,7 +177,7 @@
                                                                                                     <td> 2 </td>
                                                                                                     <td> Bantuan Subsidi Bahan Pangan Di Medan </td>
                                                                                                     <td> 040123 </td>
-                                                                                                    <td><h5><span class="badge badge-danger-lighten">Tidak Ferivikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                                                                     <td>24/01/2023</td>
                                                                                                 </tr>
 
@@ -444,7 +444,7 @@
                                                                                                     <td> Reza </td>
                                                                                                     <td> 23541534654567 </td>
                                                                                                     <td> Jln. Sutomo No 12	 </td>
-                                                                                                    <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                                                                     <td>24-42-2022</td>
                                                                                                 </tr>
 
@@ -453,7 +453,7 @@
                                                                                                     <td> Rumongso </td>
                                                                                                     <td> 23541534654567 </td>
                                                                                                     <td> Jln. Manggis No 28	 </td>
-                                                                                                    <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                                                                     <td>24-42-2022</td>
                                                                                                 </tr>
 
@@ -536,7 +536,7 @@
                                                     <div class="modal-dialog modal-lg">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h4 class="modal-title" id="standard-modalLabel">Penerima Terverifikasi</h4>
+                                                                <h4 class="modal-title" id="standard-modalLabel">Penerima Terkonfirmasi</h4>
                                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body">
@@ -564,7 +564,7 @@
                                                                                                     <td> Reza </td>
                                                                                                     <td> 23541534654567 </td>
                                                                                                     <td> Jln. Sutomo No 12	 </td>
-                                                                                                    <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                                                                     <td>24-42-2022</td>
                                                                                                 </tr>
 
@@ -593,7 +593,7 @@
                                                     <div class="modal-dialog modal-lg">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h4 class="modal-title" id="standard-modalLabel">Penerima Tidak Terverifikasi</h4>
+                                                                <h4 class="modal-title" id="standard-modalLabel">Penerima Nonkonfirmasi</h4>
                                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body">
@@ -621,7 +621,7 @@
                                                                                                     <td> Rumongso </td>
                                                                                                     <td> 23541534654567 </td>
                                                                                                     <td> Jln. Manggis No 28	 </td>
-                                                                                                    <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                                                                     <td>24-42-2022</td>
                                                                                                 </tr>
 
@@ -865,7 +865,7 @@
                                                                                                     <td> Bantuan Donasi Banjir </td>
                                                                                                     <td> 040123 </td>
                                                                                                     <td> Donasi </td>
-                                                                                                    <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                                                                     <td>24/01/20232</td>
                                                                                                 </tr>
 
@@ -924,7 +924,7 @@
                                                                                                     <td> Bantuan Bencana Tsunami Di Medan </td>
                                                                                                     <td> 040123 </td>
                                                                                                     <td> Bencana </td>
-                                                                                                    <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                                                                     <td>24/01/20232</td>
                                                                                                 </tr>
 
@@ -981,7 +981,7 @@
                                                                                                     <td> Bantuan Sumbangan Panti Jompo Di Medan </td>
                                                                                                     <td> 040123 </td>
                                                                                                     <td> Sumbangan </td>
-                                                                                                    <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-success-lighten">Terkonfirmasi</span></h5></td>
                                                                                                     <td>24/01/20232</td>
                                                                                                 </tr>
 
@@ -1039,7 +1039,7 @@
                                                                                                     <td> Bantuan Sosial Kepada Anak Yatim </td>
                                                                                                     <td> 040123 </td>
                                                                                                     <td> Sosial </td>
-                                                                                                    <td><h5><span class="badge badge-danger-lighten">Tidak Terverifikasi</span></h5></td>
+                                                                                                    <td><h5><span class="badge badge-danger-lighten">Nonkonfirmasi</span></h5></td>
                                                                                                     <td>24/01/20232</td>
                                                                                                 </tr>
 

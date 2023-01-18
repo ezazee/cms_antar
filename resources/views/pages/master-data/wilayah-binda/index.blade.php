@@ -97,14 +97,7 @@
                                         <p class="text-muted font-14">Kabinda Sumatera Utara</p>
 
                                         <div class="text-start mt-3">
-                                            <!-- <h4 class="font-13 text-uppercase">About Me :</h4>
-                                            <p class="text-muted font-13 mb-3">
-                                                Hi I'm Johnathn Deo,has been the industry's standard dummy text ever since the
-                                                1500s, when an unknown printer took a galley of type.
-                                            </p> -->
                                             <p class="text-muted mb-2 font-13"><strong>Nama Lengkap :</strong> <span class="ms-2">Emil Mutaqin</span></p>
-
-                                            <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
 
                                             <p class="text-muted mb-1 font-13"><strong>Nomor NIP/NRP :</strong> <span class="ms-2">12509638721567</span></p>
                                             

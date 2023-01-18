@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BiayaController;
 use App\Http\Controllers\KabindaController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MdUserController;
 use App\Http\Controllers\MdDriverController;
 use App\Http\Controllers\WithdrawController;
@@ -93,9 +94,9 @@ Route::get('/report', function () {
 
                             // ~~ Menu Auth ~~ //
 // Routing Auth Login & Register
-route::get('/login', function() {
-    return view('pages.login.index');
-});
+Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::post('/login/auth', [LoginController::class, 'auth'])->name('auth');
+
 
 route::get('/register', function() {
     return view('pages.register.index');

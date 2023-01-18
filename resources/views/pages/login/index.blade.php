@@ -44,32 +44,26 @@
                                     <p class="text-muted mb-4">Lakukan Login Terlebih Dahulu.</p>
                                 </div>
 
-                                <form action="#">
+                                <form action="auth" method="POST">
+                                    @csrf
 
                                     <div class="mb-3">
-                                        <label for="emailaddress" class="form-label">Email address</label>
-                                        <input class="form-control" type="email" id="emailaddress" required="" value="antar@mail.com" placeholder="Masukan Email">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input class="form-control" type="email" id="emailaddress" required placeholder="Masukan Email">
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="password" class="form-label">Password</label>
                                         <div class="input-group input-group-merge">
-                                            <input type="password" id="password" class="form-control" value="anatar123" placeholder="Masukan Password">
+                                            <input type="password" id="password" class="form-control" required placeholder="Masukan Password">
                                             <div class="input-group-text" data-password="false">
                                                 <span class="password-eye"></span>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="mb-3 mb-3">
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="checkbox-signin" checked>
-                                            <label class="form-check-label" for="checkbox-signin">Remember me</label>
-                                        </div>
-                                    </div>
-
                                     <div class="mb-3 mb-0 text-center">
-                                        <button class="btn btn-primary" type="submit"> Log In </button>
+                                        <button name="submit" class="btn btn-primary" type="submit"> Log In </button>
                                     </div>
 
                                 </form>
