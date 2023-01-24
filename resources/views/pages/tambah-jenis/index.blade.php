@@ -56,7 +56,8 @@
                                         <h4 class="header-title mb-4">Tambah Jenis Bantuan</h4>
                                         <div class="tab-content">
                                             <div class="tab-pane show active" id="custom-styles-preview">
-                                                <form class="needs-validation" novalidate>
+                                                <form method="post" action="" class="needs-validation" novalidate>
+                                                    @csrf
                                                     <div class="mb-3">
                                                         <label class="form-label" for="validationCustom01">Nama Jenis Bantuan</label>
                                                         <input type="text" class="form-control" id="validationCustom01" placeholder="Tambah Nama Jenis" required>

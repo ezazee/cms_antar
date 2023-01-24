@@ -1,22 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BiayaController;
-use App\Http\Controllers\KabindaController;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\MdUserController;
-use App\Http\Controllers\MdDriverController;
-use App\Http\Controllers\WithdrawController;
-use App\Http\Controllers\TransaksiController;
-use App\Http\Controllers\MdMerchantController;
-use App\Http\Controllers\TotalTopupController;
-use App\Http\Controllers\MitraKabupatenController;
 use App\Http\Controllers\PenerimaDetailController;
-use App\Http\Controllers\PromosiController;
 use App\Http\Controllers\SaluranController;
-use App\Http\Controllers\TransaksiAnterinController;
-use App\Http\Controllers\TransaksiBelanjainController;
-use App\Http\Controllers\TransaksiKiriminController;
+use App\Http\Controllers\TambahJenisController;
 use App\Http\Controllers\WilayahBindaController;
 
 /*
@@ -33,7 +21,8 @@ use App\Http\Controllers\WilayahBindaController;
 
 // Home Routing
 Route::get('/', function () {
-    return view('index');
+
+        return view('pages.login.index');
 });
 
 
@@ -74,9 +63,8 @@ Route::get('/tambah', function(){
 
 
 // Create Jenis
-Route::get('/tambah-jenis', function() {
-    return view('pages.tambah-jenis.index');
-});
+Route::get('/tambah-jenis', [TambahJenisController::class, 'index']);
+Route::post('add-jenis', [TambahJenisController::class, 'AddJenis'])->name('AddJenis');
 
 // Create Judul
 Route::get('/tambah-judul', function() {
@@ -93,9 +81,11 @@ Route::get('/report', function () {
 
 
                             // ~~ Menu Auth ~~ //
-// Routing Auth Login & Register
+// Routing Auth Login & Logout
 Route::get('/login', [LoginController::class, 'index'])->name('login');
-Route::post('/login/auth', [LoginController::class, 'auth'])->name('auth');
+Route::post('/loginCheck', [LoginController::class, 'loginCheck'])->name('loginCheck');
+Route::get('/logout', [LogoutController::class, 'logout'])->name('logout');
+
 
 
 route::get('/register', function() {

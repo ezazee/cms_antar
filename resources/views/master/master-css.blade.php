@@ -1,4 +1,4 @@
- @vite('resources/js/app.js')
+ <!-- @vite('resources/js/app.js') -->
 <!-- Plugin css -->
         <link rel="stylesheet" href="{{ URL::asset('assets/vendor/daterangepicker/daterangepicker.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('assets/vendor/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css') }}">

@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use PhpParser\Node\Stmt\Echo_;
 
 class LoginController extends Controller
 {
@@ -13,94 +15,31 @@ class LoginController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index(){
-        return view('pages.login.index');
+         return view('pages.login.index');
     }
 
-    public function auth(Request $request){
-        $request->validate([
-            'email'=>'required',
-            'password'=>'required',
-        ],[
-            'email.required'=>'Email Wajib Diisi',
-            'password.required'=>'password Wajib Diisi',
+    public function loginCheck(Request $request){
+        $client = new Client();
+        $response = $client->request('POST', 'http://146.190.102.199:8000/api/antar/login', [
+            'headers' => [
+                'Accept' => 'application/json',
+            ],
+            'json' => [
+                'username' => $request->username,
+                'password' => $request->password,
+            ]
         ]);
 
-        $infoLogin = [
-            'email'=>$request->email,
-            'password'=>$request->password
-        ];
+        $data = json_decode($response->getBody()->getContents());
+        $request->session()->put('token', $data->token);
+        return view('index', ['data' => $data]);
+    }
 
-        if(Auth::attempt($infoLogin)){
-            // Jika Login Berhasil
-            return redirect('/')->withErrors('Username Dan Password Benar');
-        }else{
-            // Kalo Login Gagal
-            return redirect('/')->withErrors('Username Dan Password Salah');
+    public function logout(Request $request){
+        if(session()->has('token')){
+            $request->session()->forget('token');
         }
-    }
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+        return redirect()->route('login');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

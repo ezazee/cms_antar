@@ -44,18 +44,18 @@
                                     <p class="text-muted mb-4">Lakukan Login Terlebih Dahulu.</p>
                                 </div>
 
-                                <form action="auth" method="POST">
+                                <form action="{{route('loginCheck')}}" method="POST">
                                     @csrf
 
                                     <div class="mb-3">
-                                        <label for="email" class="form-label">Email address</label>
-                                        <input class="form-control" type="email" id="emailaddress" required placeholder="Masukan Email">
+                                        <label for="email" class="form-label">Username</label>
+                                        <input name="username" class="form-control" type="text" id="emailaddress" required placeholder="Masukan Username">
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="password" class="form-label">Password</label>
                                         <div class="input-group input-group-merge">
-                                            <input type="password" id="password" class="form-control" required placeholder="Masukan Password">
+                                            <input name="password" type="password" id="password" class="form-control" required placeholder="Masukan Password">
                                             <div class="input-group-text" data-password="false">
                                                 <span class="password-eye"></span>
                                             </div>

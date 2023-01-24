@@ -112,24 +112,17 @@
                             <div class="col-xl-12 col-lg-7">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="">Tentukan Kabupaten</h4>
+                                        <h4 class="">Tentukan Posda</h4>
                                          <ul class="nav nav-bordered mb-3">
-                                                                                <li class="nav-item ml-5">
-                                                                                    <select class="form-select" id="status-select">
-                                                                                        <option selected>Medan</option>
-                                                                                        <option value="1">Lamongan</option>
-                                                                                        <option value="2">Bitung</option>
-                                                                                        <option value="3">Madiun</option>
-                                                                                        <option value="4">Garut</option>
-                                                                                        <option value="5">Madiun</option>
-                                                                                        <option value="6">Yogyakarta</option>
-                                                                                        <option value="7">Padang</option>
-                                                                                        <option value="8">Malang</option>
-                                                                                        <option value="9">Surabaya</option>
-                                                                                        <option value="10">Makasar</option>
-                                                                                    </select>
-                                                                                </li>
-                                                                            </ul> <!-- end nav-->
+                                            <li class="nav-item ml-5">
+                                                <select class="form-select" id="status-select">
+                                                    <option selected>Medan</option>
+                                                    <option value="1">Lamongan</option>
+                                                    <option value="2">Bitung</option>
+                                                    <option value="3">Madiun</option>                                    <option value="4">Garut</option>
+                                                </select>
+                                            </li>
+                                        </ul> <!-- end nav-->
                                         <div class="tab-content">
                                             <div class="tab-pane show active" id="bordered-justified-tabs-preview">
                                                 <ul class="nav nav-tabs nav-justified nav-bordered mb-3">
