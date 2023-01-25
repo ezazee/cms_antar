@@ -49,15 +49,17 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-auto">
                                                         <div class="avatar-lg">
-                                                            <img src="{{ URL::asset('assets/images/users/relawan.png') }}" alt="" class="rounded-circle img-thumbnail">
+                                                            <img src="{{ URL::asset('assets/images/users/Foto.png') }}" alt="" class="rounded-circle img-thumbnail">
                                                         </div>
                                                     </div>
                                                     <div class="col">
                                                         <div>
-                                                            <h4 class="mt-1 mb-1 text-black">Emile Mutaqin</h4>
+                                                            <h4 class="mt-1 mb-1 text-black">Dendi Prawan</h4>
                                                             <p class="font-13 text-black-50"> Kode Wilayah : <strong>001</strong> </p>
 
-                                                            <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">081420395843</span></p>
+                                                            <p class="text-muted mb-2 font-13"><strong>Nomor HandPhone :</strong><span class="ms-2">089372389572</span></p>
+
+                                                            <p class="text-muted mb-2 font-13"><strong>Status Verifikasi :</strong><span class="badge badge-success-lighten">Terverifikasi</span></p>
 
                                                             <p class="text-muted mb-1 font-13"><strong>Nomor NIP/NRP :</strong> <span class="ms-2">13509658721567</span></p>
                                                             
@@ -88,12 +90,12 @@
 
                                                             <div class="mb-3">
                                                                 <label for="simpleinput" class="form-label">Nomor Handphone</label>
-                                                                <input type="number" id="simpleinput" class="form-control" value="081420395843">
+                                                                <input type="number" id="simpleinput" class="form-control" value="089372389572">
                                                             </div>
         
                                                             <div class="mb-3">
                                                                 <label for="example-email" class="form-label">Username</label>
-                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Email" value="emile123">
+                                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="Email" value="denduy">
                                                             </div>
 
                                                         </form>
@@ -114,7 +116,7 @@
                                                             <div class="mb-3">
                                                                 <label for="password" class="form-label">Password</label>
                                                                 <div class="input-group input-group-merge">
-                                                                    <input type="password" id="password" class="form-control" placeholder="Enter your password" value="emilmutaqin123">
+                                                                    <input type="password" id="password" class="form-control" placeholder="Enter your password" value="denduy123">
                                                                     <div class="input-group-text" data-password="false">
                                                                         <span class="password-eye"></span>
                                                                     </div>

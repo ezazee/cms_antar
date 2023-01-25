@@ -72,8 +72,10 @@
                                                             <label for="inputState" class="form-label">Pilih Master Data Report</label>
                                                             <select id="inputState" class="form-select">
                                                                 <option>-</option>
-                                                                <option>Master Data Saluran Bantuan</option>
-                                                                <option>Mastter Data Penerima Bantuan</option>
+                                                                <option>Saluran Bantuan</option>
+                                                                <option>Penerima Bantuan</option>
+                                                                <option>Posda</option>
+                                                                <option>Relawan</option>
                                                             </select>
                                                         </div>
                                                         <div class="mb-3 col-md-4">

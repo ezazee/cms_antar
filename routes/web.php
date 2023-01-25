@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ListJudulController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PenerimaDetailController;
@@ -21,8 +22,7 @@ use App\Http\Controllers\WilayahBindaController;
 
 // Home Routing
 Route::get('/', function () {
-
-        return view('pages.login.index');
+        return view('index');
 });
 
 
@@ -66,10 +66,10 @@ Route::get('/tambah', function(){
 Route::get('/tambah-jenis', [TambahJenisController::class, 'index']);
 Route::post('add-jenis', [TambahJenisController::class, 'AddJenis'])->name('AddJenis');
 
-// Create Judul
-Route::get('/tambah-judul', function() {
-    return view('pages.tambah-judul.index');
-});
+// List Judul
+Route::get('/listJudul', [ListJudulController::class, 'index'])->name('listJudul');
+Route::get('/listJudul/detail', [ListJudulController::class, 'detail'])->name('detail-judul');
+
 
 
 // Report
@@ -83,8 +83,7 @@ Route::get('/report', function () {
                             // ~~ Menu Auth ~~ //
 // Routing Auth Login & Logout
 Route::get('/login', [LoginController::class, 'index'])->name('login');
-Route::post('/loginCheck', [LoginController::class, 'loginCheck'])->name('loginCheck');
-Route::get('/logout', [LogoutController::class, 'logout'])->name('logout');
+// Route::post('/loginCheck', [LoginController::class, 'loginCheck'])->name('loginCheck');
 
 
 

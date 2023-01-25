@@ -79,18 +79,20 @@
                         </li>
 
                         <li class="side-nav-item">
+                            <a href="/listJudul" class="side-nav-link">
+                                <i class="uil-file"></i>
+                                <span> List Judul Bantuan </span>
+                            </a>
+                        </li>
+
+
+                        <li class="side-nav-item">
                             <a href="/tambah-jenis" class="side-nav-link">
                                 <i class="uil-file-plus"></i>
                                 <span> Tambah Jenis Bantuan </span>
                             </a>
                         </li>
 
-                        <!-- <li class="side-nav-item">
-                            <a href="/tambah-judul" class="side-nav-link">
-                                <i class="uil-file-plus-alt"></i>
-                                <span> Tambah Judul Bantuan </span>
-                            </a>
-                        </li> -->
 
                         <li class="side-nav-item">
                             <a href="/report" class="side-nav-link">

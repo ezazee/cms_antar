@@ -1068,17 +1068,8 @@
                                     <div class="card-body">
                                         <ul class="nav float-end d-none d-lg-flex">
                                              <div>
-                                            <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                ALL
-                                            </button>
                                             <button type="button" class="btn btn-soft-primary btn-sm">
-                                                1M
-                                            </button>
-                                            <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                6M
-                                            </button>
-                                            <button type="button" class="btn btn-soft-secondary btn-sm">
-                                                1Y
+                                                1 Bulan
                                             </button>
                                         </div>
                                         </ul>
@@ -1101,7 +1092,7 @@
                                     <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Nama Kabupaten/Kota</th>
+                                        <th>Nama Provinsi</th>
                                         <th>Total Saluran Bantuan / Bulan</th>
                                     </tr>
                                     </thead>
@@ -1345,13 +1336,14 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-4" dir="ltr" style="overflow-y: scroll; height: 370px;">
-                                                <h4 class="header-title">Kabinda / Posda Yang Tersebar Di Indonesia</h4>
+                                                <h4 class="header-title">Total Posda Dan Relawan</h4>
                                                  <table class="table table-hover">
                                     <thead>
                                     <tr>
                                         <th>No</th>
                                         <th>Daerah</th>
-                                        <th>Jumlah</th>
+                                        <th>Posda</th>
+                                        <th>Relawan</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -1359,141 +1351,166 @@
                                         <td>1</td>
                                         <td>Aceh</td>
                                         <td>150</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
                                         <td>Sumatera Utara</td>
                                         <td>250</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
                                         <td>Sumatera Barat</td>
                                         <td>590</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
                                         <td>Riau</td>
                                         <td>1000</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
                                         <td>Jambi</td>
                                         <td>1543</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>6</td>
                                         <td>Sumatera Selatan</td>
                                         <td>423</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>7</td>
                                         <td>Bengkulu</td>
                                         <td>414</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>8</td>
                                         <td>Lampung</td>
                                         <td>3434</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>9</td>
                                         <td>Kepulauan Bangka Belitung</td>
                                         <td>4144</td>
+                                        <td>150</td>
                                     </tr>
                                     <tr>
                                         <td>10</td>
                                         <td>Kepulauan Riau</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>11</td>
                                         <td>DKI Jakarta</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>12</td>
                                         <td>Jawa Barat</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>13</td>
                                         <td>Jawa Tengah</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>14</td>
                                         <td>DI Yogyakarta</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>15</td>
                                         <td>Jawa Timur</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>16</td>
                                         <td>Banten</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>17</td>
                                         <td>Bali</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>18</td>
                                         <td>Nusa Tenggara Barat</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>19</td>
                                         <td>Nusa Tenggara Timur</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>20</td>
                                         <td>Kalimantan Barat</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>21</td>
                                         <td>Kalimantan Tengah</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>22</td>
                                         <td>Kalimantan Selatan</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>23</td>
                                         <td>Kalimantan Timur</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>24</td>
                                         <td>Kalimantan Utara</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>25</td>
                                         <td>Sulawesi Utara</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1501,6 +1518,7 @@
                                         <td>26</td>
                                         <td>Sulawesi Tengah</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1508,6 +1526,7 @@
                                         <td>27</td>
                                         <td>Sulawesi Selatan</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1515,6 +1534,7 @@
                                         <td>28</td>
                                         <td>Sulawesi Tenggara</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1522,6 +1542,7 @@
                                         <td>29</td>
                                         <td>Gorontalo</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1529,12 +1550,14 @@
                                         <td>30</td>
                                         <td>Sulawesi Barat</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
                                     
                                     <tr>
                                         <td>31</td>
                                         <td>Maluku</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1542,6 +1565,7 @@
                                         <td>32</td>
                                         <td>Maluku Utara</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1549,6 +1573,7 @@
                                         <td>33</td>
                                         <td>Papua</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     
@@ -1556,6 +1581,7 @@
                                         <td>34</td>
                                         <td>Papua Barat</td>
                                         <td>4124</td>
+                                        <td>150</td>
                                     </tr>
 
                                     </tbody>

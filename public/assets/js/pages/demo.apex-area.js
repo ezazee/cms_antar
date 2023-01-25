@@ -33,11 +33,11 @@ var colors = ["#fa6767"],
         colors: (colors = dataColors ? dataColors.split(",") : colors),
         series: [
             {
-                name: "Transaksi Berhasil",
+                name: "Bantuan Berhasil",
                 data: [31, 40, 28, 51, 42, 109, 100, 41, 11, 21, 50, 100],
             },
             {
-                name: "Transaksi Gagal",
+                name: "Bantuan Gagal",
                 data: [11, 32, 45, 32, 34, 52, 72, 41, 55, 31, 61, 150],
             },
         ],

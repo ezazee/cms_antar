@@ -112,7 +112,7 @@
                             <div class="col-xl-12 col-lg-7">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="">Tentukan Posda</h4>
+                                        <h4 class="">Tentukan Kabupaten</h4>
                                          <ul class="nav nav-bordered mb-3">
                                             <li class="nav-item ml-5">
                                                 <select class="form-select" id="status-select">
@@ -148,6 +148,7 @@
                                                                                     <th>No</th>
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
+                                                                                    <th>Status Verifikasi</th>
                                                                                     <th>Nomor NIP/NRP</th>
                                                                                     <th>Username Akun</th>
                                                                                     <th>Password Akun</th>
@@ -159,25 +160,26 @@
                                                                                 <tr>
                                                                                     <td> 1 </td>
                                                                                 <td class="table-user">
-                                                                                    <img src="{{ URL::asset('assets/images/users/relawan.png') }}" alt="table-user" class="me-2 rounded-circle">
-                                                                                    <a href="javascript:void(0);" class="text-body fw-semibold">Emil Mutaqin</a>
+                                                                                    <img src="{{ URL::asset('assets/images/users/Foto.png') }}" alt="table-user" class="me-2 rounded-circle">
+                                                                                    <a href="javascript:void(0);" class="text-body fw-semibold">Dendi Prawan</a>
                                                                                 </td>
-                                                                                <td> 081420395843 </td>
+                                                                                <td> 089372389572 </td>
+                                                                                 <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
                                                                                 <td> 13509658721567 </td>
-                                                                                <td> emile123 </td>
+                                                                                <td> denduy </td>
                                                                                 <td> ********** </td>
                                                                                 <td> 24-42-2022 </td>
                                                                                 <td>
                                                                                         <form action="#">
                                                                                             <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('details-posda') }}"></i>Lihat</a>
-                                                                                            <button type="submit" class="btn btn-danger waves-effect btn-label waves-light btn-sm show_confirm">Suspend</button>
+                                                                                            <button type="submit" class="btn btn-danger waves-effect btn-label waves-light btn-sm show_confirm">Hapus</button>
                                                                                         </form>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
                                                                         </table>                                  
                                                                     </div> <!-- end preview-->
-                                                    </div>
+                                                                </div>
 
 
                                                     <div class="tab-pane" id="relawan">
@@ -188,6 +190,7 @@
                                                                                     <th>No</th>
                                                                                     <th>Nama</th>
                                                                                     <th>No HP</th>
+                                                                                    <th>Status Verifikasi</th>
                                                                                     <th>Direkrut Oleh</th>
                                                                                     <th>Asal Wilayah</th>
                                                                                     <th>Username Akun</th>
@@ -204,7 +207,8 @@
                                                                                     <a href="javascript:void(0);" class="text-body fw-semibold">Reza</a>
                                                                                 </td>
                                                                                 <td> 081313711180 </td>
-                                                                                <td> Emile Mutaqin </td>
+                                                                                <td><h5><span class="badge badge-success-lighten">Terverifikasi</span></h5></td>
+                                                                                <td> Dendi Prawan </td>
                                                                                 <td> Lamongan </td>
                                                                                 <td> rezazee </td>
                                                                                 <td> ********** </td>
@@ -212,7 +216,7 @@
                                                                                 <td>
                                                                                         <form action="#">
                                                                                             <a class="btn btn-primary waves-effect btn-label waves-light btn-sm" href="{{ route('details-relawan') }}"></i>Lihat</a>
-                                                                                            <button type="submit" class="btn btn-danger waves-effect btn-label waves-light btn-sm show_confirm">Suspend</button>
+                                                                                            <button type="submit" class="btn btn-danger waves-effect btn-label waves-light btn-sm show_confirm">Hapus</button>
                                                                                         </form>
                                                                                     </td>
                                                                                 </tr>

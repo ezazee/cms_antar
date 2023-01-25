@@ -44,7 +44,7 @@
                                     <p class="text-muted mb-4">Lakukan Login Terlebih Dahulu.</p>
                                 </div>
 
-                                <form action="{{route('loginCheck')}}" method="POST">
+                                <form action="#" method="#">
                                     @csrf
 
                                     <div class="mb-3">
